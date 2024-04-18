@@ -1,2 +1,4 @@
 name: Demo
-pdk: cspdk
+pdk:
+  name: cspdk
+  version: 0.7.0
