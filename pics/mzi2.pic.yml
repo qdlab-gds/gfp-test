@@ -1,8 +1,5 @@
 pdk: cspdk
 instances:
-  b2:
-    component: bend_sc
-    settings: {}
   b3:
     component: bend_sc
     settings: {}
@@ -17,6 +14,9 @@ instances:
     settings: {}
   c2:
     component: coupler_sc
+    settings: {}
+  b2:
+    component: bend_sc
     settings: {}
 connections:
   b1,o1: c1,o3
@@ -160,9 +160,6 @@ info:
       - - 0.25
         - 0.4244382022471911
     placements:
-      b2:
-        x: 249
-        y: 152
       b3:
         x: 324
         y: 150
@@ -178,6 +175,9 @@ info:
       c2:
         x: 503
         y: 259
+      b2:
+        x: 256
+        y: 150
     port_placements:
       o2:
         x: 50
