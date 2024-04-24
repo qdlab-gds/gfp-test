@@ -1,0 +1,346 @@
+pdk: cspdk
+instances:
+  mmi10x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi11x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi12x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi13x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi14x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi15x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi16x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi17x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi18x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi19x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi1x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi20x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi21x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi22x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi23x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi24x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi2x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi3x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi4x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi5x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi6x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi9x:
+    component: mmi1x2_sc
+    settings: {}
+  die_template:
+    component: die_sc
+    settings: {}
+  mmi8x:
+    component: mmi1x2_sc
+    settings: {}
+  mmi7x:
+    component: mmi1x2_sc
+    settings: {}
+connections:
+  die_template,o1: mmi1x,o1
+  die_template,o10: mmi10x,o1
+  die_template,o11: mmi11x,o1
+  die_template,o12: mmi12x,o1
+  die_template,o13: mmi13x,o1
+  die_template,o14: mmi14x,o1
+  die_template,o15: mmi15x,o1
+  die_template,o16: mmi16x,o1
+  die_template,o17: mmi17x,o1
+  die_template,o18: mmi18x,o1
+  die_template,o19: mmi19x,o1
+  die_template,o2: mmi2x,o1
+  die_template,o20: mmi20x,o1
+  die_template,o21: mmi21x,o1
+  die_template,o22: mmi22x,o1
+  die_template,o23: mmi23x,o1
+  die_template,o24: mmi24x,o1
+  die_template,o4: mmi4x,o1
+  die_template,o5: mmi5x,o1
+  die_template,o6: mmi6x,o1
+  die_template,o8: mmi8x,o1
+  die_template,o9: mmi9x,o1
+  die_template,o7: mmi7x,o1
+routes: {}
+ports: {}
+placements: {}
+info:
+  schematic:
+    implicit_connections: {}
+    component_ports:
+      mmi1x2_sc:
+        o2: e
+        o3: e
+        o1: w
+      die_sc:
+        e32: n
+        e33: n
+        e34: n
+        e35: n
+        e36: n
+        e37: n
+        e38: n
+        e39: n
+        e40: n
+        e41: n
+        e42: n
+        e43: n
+        e44: n
+        e45: n
+        e46: n
+        e47: n
+        e48: n
+        e49: n
+        e50: n
+        e51: n
+        e52: n
+        e53: n
+        e54: n
+        e55: n
+        e56: n
+        e57: n
+        e58: n
+        e59: n
+        e60: n
+        e61: n
+        e62: n
+        o12: n
+        o2: e
+        o3: e
+        o4: e
+        o5: e
+        o6: e
+        o7: e
+        o8: e
+        o9: e
+        o10: e
+        o11: e
+        e1: s
+        e2: s
+        e3: s
+        e4: s
+        e5: s
+        e6: s
+        e7: s
+        e8: s
+        e9: s
+        e10: s
+        e11: s
+        e12: s
+        e13: s
+        e14: s
+        e15: s
+        e16: s
+        e17: s
+        e18: s
+        e19: s
+        e20: s
+        e21: s
+        e22: s
+        e23: s
+        e24: s
+        e25: s
+        e26: s
+        e27: s
+        e28: s
+        e29: s
+        e30: s
+        e31: s
+        o1: s
+        o13: w
+        o14: w
+        o15: w
+        o16: w
+        o17: w
+        o18: w
+        o19: w
+        o20: w
+        o21: w
+        o22: w
+        o23: w
+        o24: w
+    component_icons:
+      mmi1x2_sc:
+      - - 1.0000000000000002
+        - 0.7241666666666666
+      - - 1.0000000000000002
+        - 0.7991666666666667
+      - - 0.7214484679665738
+        - 0.8866666666666667
+      - - 0.7214484679665738
+        - 1
+      - - 0.2785515320334262
+        - 1
+      - - 0.2785515320334262
+        - 0.625
+      - - 0
+        - 0.5375
+      - - 0
+        - 0.4625
+      - - 0.2785515320334262
+        - 0.375
+      - - 0.2785515320334262
+        - 0
+      - - 0.7214484679665738
+        - 0
+      - - 0.7214484679665738
+        - 0.11333333333333336
+      - - 1.0000000000000002
+        - 0.20083333333333336
+      - - 1.0000000000000002
+        - 0.2758333333333333
+      - - 0.7214484679665738
+        - 0.3633333333333333
+      - - 0.7214484679665738
+        - 0.6366666666666667
+      die_sc:
+      - - 0.25
+        - 0.25
+      - - 0.75
+        - 0.25
+      - - 0.75
+        - 0.75
+      - - 0.25
+        - 0.75
+    placements:
+      mmi10x:
+        x: 101
+        y: 357
+      mmi11x:
+        x: 101
+        y: 357
+      mmi12x:
+        x: 101
+        y: 357
+      mmi13x:
+        x: 101
+        y: 357
+      mmi14x:
+        x: 101
+        y: 357
+      mmi15x:
+        x: 101
+        y: 357
+      mmi16x:
+        x: 101
+        y: 357
+      mmi17x:
+        x: 101
+        y: 357
+      mmi18x:
+        x: 101
+        y: 357
+      mmi19x:
+        x: 101
+        y: 357
+      mmi1x:
+        x: 101
+        y: 357
+      mmi20x:
+        x: 101
+        y: 357
+      mmi21x:
+        x: 101
+        y: 357
+      mmi22x:
+        x: 101
+        y: 357
+      mmi23x:
+        x: 101
+        y: 357
+      mmi24x:
+        x: 101
+        y: 357
+      mmi2x:
+        x: 101
+        y: 357
+      mmi3x:
+        x: 101
+        y: 357
+      mmi4x:
+        x: 101
+        y: 357
+      mmi5x:
+        x: 101
+        y: 357
+      mmi6x:
+        x: 101
+        y: 357
+      mmi9x:
+        x: 212
+        y: 371
+      die_template:
+        x: 167
+        y: 399
+      mmi8x:
+        x: 206
+        y: 409
+      mmi7x:
+        x: 170
+        y: 359
+    port_placements: {}
+    hierarchical:
+    - die_sc
+    manhattan_fractions:
+      die_template,o1-mmi1x,o1: 0.5
+      die_template,o10-mmi10x,o1: 0.5
+      die_template,o11-mmi11x,o1: 0.5
+      die_template,o12-mmi12x,o1: 0.5
+      die_template,o13-mmi13x,o1: 0.5
+      die_template,o14-mmi14x,o1: 0.5
+      die_template,o15-mmi15x,o1: 0.5
+      die_template,o16-mmi16x,o1: 0.5
+      die_template,o17-mmi17x,o1: 0.5
+      die_template,o18-mmi18x,o1: 0.5
+      die_template,o19-mmi19x,o1: 0.5
+      die_template,o2-mmi2x,o1: 0.5
+      die_template,o20-mmi20x,o1: 0.5
+      die_template,o21-mmi21x,o1: 0.5
+      die_template,o22-mmi22x,o1: 0.5
+      die_template,o23-mmi23x,o1: 0.5
+      die_template,o24-mmi24x,o1: 0.5
+      die_template,o4-mmi4x,o1: 0.5
+      die_template,o5-mmi5x,o1: 0.5
+      die_template,o6-mmi6x,o1: 0.5
+      die_template,o8-mmi8x,o1: 0.5
+      die_template,o9-mmi9x,o1: 0.5
+      die_template,o7-mmi7x,o1: 0.27828506806892794
+name: circuit

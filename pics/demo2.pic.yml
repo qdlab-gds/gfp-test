@@ -1,0 +1,42 @@
+pdk: cspdk
+instances:
+  d1:
+    component: demo
+    settings: {}
+  d2:
+    component: demo
+    settings: {}
+connections:
+  d1,o2: d2,o1
+routes: {}
+ports: {}
+placements: {}
+info:
+  schematic:
+    implicit_connections: {}
+    component_ports:
+      demo:
+        o2: e
+        o1: w
+    component_icons:
+      demo:
+      - - 0.25
+        - 0.25
+      - - 0.75
+        - 0.25
+      - - 0.75
+        - 0.75
+      - - 0.25
+        - 0.75
+    placements:
+      d1:
+        x: 200
+        y: 200
+      d2:
+        x: 221
+        y: 201
+    port_placements: {}
+    hierarchical:
+    - demo
+    manhattan_fractions:
+      d1,o2-d2,o1: 0.5

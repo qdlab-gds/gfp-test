@@ -1,0 +1,53 @@
+pdk: cspdk
+instances:
+  mzi1:
+    component: mzi_sc
+    settings:
+      delta_length: 100
+  mzi2:
+    component: mzi_sc
+    settings: {}
+connections:
+  mzi1,o2: mzi2,o1
+routes: {}
+ports:
+  o1: mzi1,o1
+  o2: mzi2,o2
+placements: {}
+info:
+  schematic:
+    implicit_connections: {}
+    component_ports:
+      mzi_sc:
+        o2: e
+        o1: w
+    component_icons:
+      mzi_sc:
+      - - 0.25
+        - 0.25
+      - - 0.75
+        - 0.25
+      - - 0.75
+        - 0.75
+      - - 0.25
+        - 0.75
+    placements:
+      mzi1:
+        x: 540
+        y: 350
+      mzi2:
+        x: 573
+        y: 332
+    port_placements:
+      o1:
+        x: 550
+        y: 200
+      o2:
+        x: 597
+        y: 308
+    hierarchical:
+    - mzi_sc
+    manhattan_fractions:
+      mzi1,o2-mzi2,o1: 0.5
+      o1-mzi1,o1: 0.5
+      o2-mzi2,o2: 0.5
