@@ -43,16 +43,13 @@ info:
     implicit_connections: {}
     component_ports:
       bend_sc:
-        o2: n
         o1: w
+        o2: n
       coupler_sc:
-        o3: e
-        o4: e
         o1: w
         o2: w
-      bend_so:
-        o1: w
-        o2: n
+        o3: e
+        o4: e
     component_icons:
       bend_sc:
       - - 0.05427872860635698
@@ -164,23 +161,23 @@ info:
         - 0.4244382022471911
     placements:
       b3:
-        x: 324
-        y: 150
+        x: 100
+        y: 100
       b4:
-        x: 399
-        y: 151
+        x: 100
+        y: 100
       b1:
-        x: 185
-        y: 152
+        x: 100
+        y: 100
       c2:
-        x: 503
-        y: 259
+        x: 100
+        y: 100
       b2:
-        x: 256
-        y: 150
+        x: 100
+        y: 100
       c1:
-        x: 124
-        y: 280
+        x: 100
+        y: 100
     port_placements:
       o2:
         x: 50
@@ -195,14 +192,4 @@ info:
         x: 50
         y: 300
     hierarchical: []
-    manhattan_fractions:
-      b1,o1-c1,o3: 0.5
-      c2,o2-b4,o2: 0.5
-      b2,o1-b1,o2: 0.5
-      b3,o1-b2,o2: 0.5
-      b4,o1-b3,o2: 0.5
-      c2,o1-c1,o4: 0.5
-      o2-c1,o2: 0.5
-      o4-c2,o4: 0.5
-      o3-c2,o3: 0.5
-      o1-c1,o1: 0.5
+    manhattan_fractions: {}
