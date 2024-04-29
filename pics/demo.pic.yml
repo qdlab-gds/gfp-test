@@ -36,15 +36,15 @@ info:
         x: 540
         y: 350
       mzi2:
-        x: 573
-        y: 332
+        x: 697
+        y: 314
     port_placements:
       o1:
         x: 550
         y: 200
       o2:
-        x: 597
-        y: 308
+        x: 822
+        y: 277
     hierarchical:
     - mzi_sc
     manhattan_fractions:
