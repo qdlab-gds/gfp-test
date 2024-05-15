@@ -1,4 +1,5 @@
+# yaml-language-server: $schema=https://schemas.docode.doplaydo.com/settings.json
 name: demo
 pdk:
   name: cspdk
-  version: 0.7.0
+  tag: cspdk
