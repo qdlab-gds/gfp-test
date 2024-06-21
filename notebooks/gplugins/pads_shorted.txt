@@ -1,0 +1,177 @@
+#%l2n-klayout
+top(pads_shorted)
+unit(0.001)
+
+# Layer section
+# This section lists the mask layers (drawing or derived) and their connections.
+
+# Mask layers
+layer(M3 '49/0')
+layer(M3_LABELS '49/0')
+layer($1 '49/0')
+
+# Mask layer connectivity
+connect(M3 M3)
+connect(M3_LABELS $1)
+connect($1 M3_LABELS)
+
+# Circuit section
+# Circuits are the hierarchical building blocks of the netlist.
+circuit(straight_c2b271ae
+
+ # Circuit boundary
+ rect((0 -5000) (15000 10000))
+
+ # Nets with their geometries
+ net(1
+  rect(M3 (0 -5000) (15000 10000))
+ )
+ net(2
+  rect(M3_LABELS (0 -5000) (15000 10000))
+ )
+
+ # Outgoing pins and their connections to nets
+ pin(1)
+
+)
+circuit(straight_f056690e
+
+ # Circuit boundary
+ rect((0 -5000) (200000 10000))
+
+ # Nets with their geometries
+ net(1
+  rect(M3 (0 -5000) (200000 10000))
+ )
+ net(2
+  rect(M3_LABELS (0 -5000) (200000 10000))
+ )
+
+ # Outgoing pins and their connections to nets
+ pin(1)
+
+)
+circuit(straight_ff970ea4
+
+ # Circuit boundary
+ rect((0 -5000) (385000 10000))
+
+ # Nets with their geometries
+ net(1
+  rect(M3 (0 -5000) (385000 10000))
+ )
+ net(2
+  rect(M3_LABELS (0 -5000) (385000 10000))
+ )
+
+ # Outgoing pins and their connections to nets
+ pin(1)
+
+)
+circuit(bend_euler_1615fe7a
+
+ # Circuit boundary
+ rect((-5000 -5000) (10000 10000))
+
+ # Nets with their geometries
+ net(1
+  rect(M3 (-5000 -5000) (10000 10000))
+ )
+ net(2
+  rect(M3_LABELS (-5000 -5000) (10000 10000))
+ )
+
+ # Outgoing pins and their connections to nets
+ pin(1)
+
+)
+circuit(straight_297256ac
+
+ # Circuit boundary
+ rect((0 -5000) (400000 10000))
+
+ # Nets with their geometries
+ net(1
+  rect(M3 (0 -5000) (400000 10000))
+ )
+ net(2
+  rect(M3_LABELS (0 -5000) (400000 10000))
+ )
+
+ # Outgoing pins and their connections to nets
+ pin(1)
+
+)
+circuit(pad
+
+ # Circuit boundary
+ rect((-50000 -50000) (100000 100000))
+
+ # Nets with their geometries
+ net(1
+  rect(M3 (-50000 -50000) (100000 100000))
+ )
+ net(2
+  rect(M3_LABELS (-50000 -50000) (100000 100000))
+ )
+
+ # Outgoing pins and their connections to nets
+ pin(1)
+ pin(2)
+
+)
+circuit(pads_shorted
+
+ # Circuit boundary
+ rect((-50000 -50000) (600000 600000))
+
+ # Nets with their geometries
+ net(1 name(tl)
+  rect(M3_LABELS (0 300000) (0 0))
+  text($1 tl (0 0))
+ )
+ net(2 name(tr)
+  rect(M3_LABELS (500000 500000) (0 0))
+  text($1 tr (0 0))
+ )
+ net(3 name(br)
+  rect(M3_LABELS (500000 0) (0 0))
+  text($1 br (0 0))
+ )
+ net(4 name(bl)
+  rect(M3_LABELS (0 0) (0 0))
+  text($1 bl (0 0))
+ )
+ net(5 name('bl,br,tl,tr')
+  rect(M3 (0 300000) (0 0))
+  rect(M3 (500000 200000) (0 0))
+  rect(M3 (0 -500000) (0 0))
+  rect(M3 (-500000 0) (0 0))
+ )
+
+ # Subcircuits and their connections
+ circuit(1 pad location(0 300000)
+  pin(0 5)
+  pin(1 1)
+ )
+ circuit(2 pad location(500000 500000)
+  pin(0 5)
+  pin(1 2)
+ )
+ circuit(3 pad location(500000 0)
+  pin(0 5)
+  pin(1 3)
+ )
+ circuit(4 pad location(0 0)
+  pin(0 5)
+  pin(1 4)
+ )
+ circuit(5 straight_ff970ea4 location(50000 300000) pin(0 5))
+ circuit(6 straight_f056690e rotation(90) location(0 50000) pin(0 5))
+ circuit(7 straight_297256ac location(50000 0) pin(0 5))
+ circuit(8 bend_euler_1615fe7a location(435000 300000) pin(0 5))
+ circuit(9 straight_f056690e rotation(90) location(435000 300000) pin(0 5))
+ circuit(10 bend_euler_1615fe7a mirror rotation(90) location(435000 500000) pin(0 5))
+ circuit(11 straight_c2b271ae location(435000 500000) pin(0 5))
+
+)

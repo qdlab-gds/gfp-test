@@ -1,26 +1,212 @@
-# other
-*.swp
-*.nfs*
+py[cod]
+add_type_hints.xonsh
+gdsfactory/generic_tech/klayout/klayoutrc
+gdsfactory/plugins/dagster/tmp*
+gdsfactory/generic_tech/klayout/layers.py
+gdsfactory/generic_tech/klayout/tech/generic_tech.py
+test-data
+tests/test_pathlength_reporting/
+tests/test_difftest/
+docs/notebooks/demo.png
+docs/notebooks/demo_jinja_loops.pic.yml
+notebooks/demo.png
+notebooks/demo.yml
+notebooks/demo_jinja_loops.pic.yml
+notebooks/schematic.yaml
+.virtual_documents
 
-# IDE settings
-.vscode/
-.idea/
 
-# nbdev
-docs/
-.jekyll-cache/
-Gemfile.lock
-*.bak
-.gitattributes
-.last_checked
-.gitconfig
-*.bak
-*.log
-*~
-~*
-_tmp*
-tmp*
+# C extensions
+*.so
+*.l2n
+test_manifest.csv
+gdsfactory/plugins/kweb/gds_files/
+profile.html
+*.properties
+*.sqlite3
+*.hdf5
+*.stl
+*.pkl
+*.msh
+*.xdmf
+*.db
+*.svg
+*.db
+*.tar
+.conda
+.devcontainer
+
+gfconfig.yml
+sim_ref.yaml
+yarn.lock
+node_modules/
+test_mask_metadata.csv
+test_mask_metadata.yml
+gdsfactory/simulation/spins/grating_full_opt/
+.pyre_configuration
+poetry.lock
+mask.csv
+mask.yml
+gdsfactory/simulation/gtidy3d/sim_run.yam
+gdsfactory/schema.yaml
+sim_run.yaml
+docs/notebooks/ring.yml
+.ruff_cache/
+Pipfile
+gdsfactory/samples/notebooks/demo_backwards_compatibility.pic.yml
+gdsfactory/samples/notebooks/demo_jinja.pic.yml
+test-data-gds
+sample_reticle.csv
+
+
+# Packages
+*.egg
+*.oas
+*.egg-info
+docs/notebooks/demo.yml
+Pipfile.lock
+dist
+doc_pdks/
+deprecated/
+pip-wheel-metadata/
+pdk_docs/
+build
+gdslib/
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib/
+lib64
+docs/notebooks/playground_repo
+__pycache__
+.mypy_cache/
+.pyre/
+extra/
+gdsfactory/components/doc
+cml/
+mzi.yml
+*.out
+mpb-sim/
+extrakdown-parser/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+*.obtained.*
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+gdsfactory/gds/.gds/
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 tags
+
+# Icon must end with two \r
+Icon
+vim-markdown-preview.html
+
+# Thumbnails
+._*
+*.pyc
+*.pyo
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Rope project settings
+.ropeproject
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak
+.mypy_cache/
+
+.idea/
+*.cprof
+
+# Sphinx documentation
+doc/_build/
+
+Icon?
+*.h5
+*.log
+*.DS_Store
+*.lyrdb
+*.7z
+*.mpg
+*.pdf
+*.fsp
+*.lms
+*.icp
+*.ldf
+*.bak
+*.dat
+*.mat
+
+*.tar.gz
+*.gds
+*.json
+*.zip
+*.rdb
+*.sty
+*.blg
+*.aux
+*.bbl
+*.bib
+*.bst
+*.ppt
+*.gif
+*.pptx
+*.prj
+*.swp
+*.lms
+*.wpr
+*.wpu
+.pytest_cache
+
+# Fab-specific
+*.gds
+*.gds2
+
+# Random stuff
+.noseids
+.tags
+
+# Python
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -44,8 +230,6 @@ parts/
 sdist/
 var/
 wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -64,14 +248,11 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.nox/
 .coverage
 .coverage.*
 .cache
-nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
 .hypothesis/
 .pytest_cache/
 
@@ -83,7 +264,6 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
-db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -94,7 +274,7 @@ instance/
 
 # Sphinx documentation
 docs/_build/
-docs/source/examples
+docs/_autosummary/
 
 # PyBuilder
 target/
@@ -102,26 +282,12 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# IPython
-profile_default/
-ipython_config.py
-
 # pyenv
 .python-version
+pyvenv.cfg
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
+# celery beat schedule file
 celerybeat-schedule
-celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -147,12 +313,21 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-.dmypy.json
-dmypy.json
 
-# Pyre type checker
-.pyre/
+# netlist stuff
+*.spi # lumerical
+*.nst # json netlist format
 
-# Pyright
-node_modules
-package-lock.json
+# lumerical interconnect
+*.ich
+docs/notebooks/plugins/sax/fdtd_vs_model.png
+gdsfactory/generic_tech/klayout/tech/layers.py
+/gdslib
+
+# Optimiser output
+tune/
+gdsfactory/generic_tech/xsection_planarized.pyxs
+gdsfactory/plugins/pso/wrk_dir/
+
+# keep reference gds files
+!tests/gds/*.gds
