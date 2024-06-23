@@ -1,4 +1,4 @@
-pdk: cspdk
+pdk: cspdk.si220
 instances:
   mmi10x:
     component: mmi1x2_sc
