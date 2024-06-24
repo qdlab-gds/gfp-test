@@ -1,4 +1,4 @@
-pdk: cspdk
+pdk: cspdk.si220
 instances:
   br:
     component: pad
