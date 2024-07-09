@@ -9,5 +9,5 @@ name = "cspdk.si220"
 reportMissingImports = true
 reportMissingTypeStubs = false
 reportUnknownMemberType = false
-treportUnusedCallResult = false
+reportUnusedCallResult = false
 pythonPlatform = "Linux"
