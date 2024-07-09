@@ -2,7 +2,41 @@ pdk: cspdk.si220
 instances:
   mzi1:
     component: mzi2
+    settings: {}
   mzi2:
     component: mzi2
+    settings: {}
 connections:
   mzi2,o1: mzi1,o4
+routes: {}
+ports:
+  o1: mzi1,o1
+  o2: mzi1,o2
+  o3: mzi2,o3
+  o4: mzi2,o4
+placements: {}
+info:
+  schematic:
+    implicit_connections:
+      mzi1,o3: mzi2,o2
+    component_ports:
+      mzi2:
+        o2: "n"
+        o3: "n"
+        o4: e
+        o1: s
+    component_icons:
+      mzi2: []
+    placements:
+      mzi1:
+        x: 218
+        "y": 125
+      mzi2:
+        x: 395
+        "y": 114
+    port_placements: {}
+    hierarchical:
+      - mzi2
+    manhattan_fractions:
+      mzi2,o1-mzi1,o4: 0.5
+      mzi1,o3-mzi2,o2: 0.5

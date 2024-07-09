@@ -13,7 +13,12 @@ PDK.register_cells_yaml(PICS_PATH, update=True)
 
 c = gf.get_component("demo")
 netlist = sax.netlist(c.get_netlist(recursive=True))
-print([k for k, _ in netlist])
+print(
+    {
+        k: {k: c.component for k, c in v.instances.items()}
+        for k, v in netlist.root.items()
+    }
+)
 
 circuit, _ = sax.circuit(
     netlist,
