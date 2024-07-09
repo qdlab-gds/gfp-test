@@ -7,7 +7,7 @@ instances:
     component: mzi2
     settings: {}
 connections:
-  mzi2,o1: mzi1,o4
+  mzi2,o1: mzi1,o3
 routes: {}
 ports:
   o1: mzi1,o1
@@ -17,26 +17,35 @@ ports:
 placements: {}
 info:
   schematic:
-    implicit_connections:
-      mzi1,o3: mzi2,o2
+    implicit_connections: {}
     component_ports:
       mzi2:
-        o2: "n"
-        o3: "n"
-        o4: e
         o1: s
+        o2: n
+        o3: n
+        o4: e
     component_icons:
       mzi2: []
     placements:
       mzi1:
         x: 218
-        "y": 125
+        y: 125
       mzi2:
         x: 395
-        "y": 114
-    port_placements: {}
+        y: 114
+    port_placements:
+      o1:
+        x: 200
+        y: 550
+      o2:
+        x: 100
+        y: 50
+      o3:
+        x: 300
+        y: 50
+      o4:
+        x: 550
+        y: 200
     hierarchical:
-      - mzi2
-    manhattan_fractions:
-      mzi2,o1-mzi1,o4: 0.5
-      mzi1,o3-mzi2,o2: 0.5
+    - mzi2
+    manhattan_fractions: {}
