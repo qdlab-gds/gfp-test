@@ -1,0 +1,5 @@
+pdk: cspdk.si220
+instances:
+  mzi:
+    component: mzi_sc
+    settings: {}

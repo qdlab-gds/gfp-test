@@ -8,4 +8,5 @@ name = "cspdk.si220"
 [tool.basedpyright]
 reportMissingImports = true
 reportMissingTypeStubs = false
+reportUnknownMemberType = false
 pythonPlatform = "Linux"
