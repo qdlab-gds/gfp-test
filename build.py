@@ -14,9 +14,20 @@ instances:
     component: mzi2
   mzi2:
     component: mzi2
-connections:
-  mzi2,o1: mzi1,o4
+routes:
+  bundle:
+    links:
+      mzi1,o3: mzi2,o1
+placements:
+  mzi2:
+    x: 200
+    y: 200
 """
 
 c = gf.read.from_yaml(yaml_str)
+
+for inst in c.insts:
+    print(inst.name, inst.dx, inst.dy)
+
+c.write_gds("test.gds")
 c.show()
