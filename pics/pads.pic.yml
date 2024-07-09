@@ -1,0 +1,21 @@
+pdk: cspdk.si220
+instances:
+  tr:
+    component: pad
+    settings: {}
+  tl:
+    component: pad
+    settings: {}
+connections: {}
+routes:
+  electrical:
+    links:
+      tl,e3: tr,e1
+ports: {}
+placements:
+  tl:
+    x: 0
+    y: 500
+  tr:
+    x: 400
+    y: 600
