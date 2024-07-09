@@ -1,4 +1,5 @@
-pdk: ''
+# yaml-language-server: $schema=https://schemas.docode.doplaydo.com/cspdk.si220.json
+pdk: cspdk.si220
 instances:
   mzi1:
     component: mzi2
@@ -48,7 +49,7 @@ info:
         x: 550
         y: 200
     hierarchical:
-    - mzi2
+      - mzi2
     manhattan_fractions:
       mzi1,o3-mzi2,o1: 0.5
       o1-mzi1,o1: 0.5
