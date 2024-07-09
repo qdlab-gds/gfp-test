@@ -1,9 +1,10 @@
-from cspdk.si220 import PDK
 import os
+
 import gdsfactory as gf
-import sax
 import jax.numpy as jnp
 import matplotlib.pyplot as plt
+import sax
+from cspdk.si220 import PDK
 
 PDK.activate()
 
@@ -22,10 +23,11 @@ circuit, _ = sax.circuit(
     },
 )
 
-wl = jnp.linspace(1.5, 1.6, 100)
+wl = jnp.linspace(1.5, 1.6, 1000)
 result = sax.sdict(circuit(wl=wl))
 print(list(result))
 
-p = plt.plot(wl, result["o1", "o3"])
-q = plt.plot(wl, result["o1", "o4"])
+
+p = plt.plot(wl, 10 * jnp.log10(abs(result["o1", "o3"]) ** 2))
+q = plt.plot(wl, 10 * jnp.log10(abs(result["o1", "o4"]) ** 2))
 plt.show()
