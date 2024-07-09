@@ -11,8 +11,9 @@ PDK.activate()
 PICS_PATH = os.path.join("/", os.environ.get("GIT_REPO", ""), "pics")
 PDK.register_cells_yaml(PICS_PATH, update=True)
 
-c = gf.get_component("mzi2")
+c = gf.get_component("demo")
 netlist = sax.netlist(c.get_netlist(recursive=True))
+print([k for k, _ in netlist])
 
 circuit, _ = sax.circuit(
     netlist,
