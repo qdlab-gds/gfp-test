@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://schemas.docode.doplaydo.com/cspdk.si220.json
 pdk: cspdk.si220
 instances:
   mmi10x:
@@ -76,29 +77,29 @@ instances:
     component: mmi1x2_sc
     settings: {}
 connections:
-  die_template,o1: mmi1x,o1
-  die_template,o10: mmi10x,o1
-  die_template,o11: mmi11x,o1
-  die_template,o12: mmi12x,o1
-  die_template,o13: mmi13x,o1
-  die_template,o14: mmi14x,o1
-  die_template,o15: mmi15x,o1
-  die_template,o16: mmi16x,o1
-  die_template,o17: mmi17x,o1
-  die_template,o18: mmi18x,o1
-  die_template,o19: mmi19x,o1
-  die_template,o2: mmi2x,o1
-  die_template,o20: mmi20x,o1
-  die_template,o21: mmi21x,o1
-  die_template,o22: mmi22x,o1
-  die_template,o23: mmi23x,o1
-  die_template,o24: mmi24x,o1
-  die_template,o4: mmi4x,o1
-  die_template,o5: mmi5x,o1
-  die_template,o6: mmi6x,o1
-  die_template,o8: mmi8x,o1
-  die_template,o9: mmi9x,o1
-  die_template,o7: mmi7x,o1
+  mmi1x,o1: die_template,o1
+  mmi10x,o1: die_template,o10
+  mmi11x,o1: die_template,o11
+  mmi12x,o1: die_template,o12
+  mmi13x,o1: die_template,o13
+  mmi14x,o1: die_template,o14
+  mmi15x,o1: die_template,o15
+  mmi16x,o1: die_template,o16
+  mmi17x,o1: die_template,o17
+  mmi18x,o1: die_template,o18
+  mmi19x,o1: die_template,o19
+  mmi2x,o1: die_template,o2
+  mmi20x,o1: die_template,o20
+  mmi21x,o1: die_template,o21
+  mmi22x,o1: die_template,o22
+  mmi23x,o1: die_template,o23
+  mmi24x,o1: die_template,o24
+  mmi4x,o1: die_template,o4
+  mmi5x,o1: die_template,o5
+  mmi6x,o1: die_template,o6
+  mmi8x,o1: die_template,o8
+  mmi9x,o1: die_template,o9
+  mmi7x,o1: die_template,o7
 routes: {}
 ports: {}
 placements: {}
@@ -106,11 +107,38 @@ info:
   schematic:
     implicit_connections: {}
     component_ports:
-      mmi1x2_sc:
-        o2: e
-        o3: e
-        o1: w
       die_sc:
+        e1: s
+        e2: s
+        e3: s
+        e4: s
+        e5: s
+        e6: s
+        e7: s
+        e8: s
+        e9: s
+        e10: s
+        e11: s
+        e12: s
+        e13: s
+        e14: s
+        e15: s
+        e16: e
+        e17: e
+        e18: e
+        e19: e
+        e20: e
+        e21: e
+        e22: e
+        e23: e
+        e24: e
+        e25: e
+        e26: e
+        e27: e
+        e28: e
+        e29: e
+        e30: e
+        e31: e
         e32: n
         e33: n
         e34: n
@@ -142,61 +170,38 @@ info:
         e60: n
         e61: n
         e62: n
-        o12: n
+        o1: e
         o2: e
         o3: e
         o4: e
         o5: e
         o6: e
         o7: e
-        o8: e
-        o9: e
-        o10: e
-        o11: e
-        e1: s
-        e2: s
-        e3: s
-        e4: s
-        e5: s
-        e6: s
-        e7: s
-        e8: s
-        e9: s
-        e10: s
-        e11: s
-        e12: s
-        e13: s
-        e14: s
-        e15: s
-        e16: s
-        e17: s
-        e18: s
-        e19: s
-        e20: s
-        e21: s
-        e22: s
-        e23: s
-        e24: s
-        e25: s
-        e26: s
-        e27: s
-        e28: s
-        e29: s
-        e30: s
-        e31: s
-        o1: s
-        o13: w
-        o14: w
-        o15: w
-        o16: w
-        o17: w
-        o18: w
-        o19: w
-        o20: w
-        o21: w
-        o22: w
-        o23: w
-        o24: w
+        o8: n
+        o9: n
+        o10: n
+        o11: n
+        o12: n
+        o13: n
+        o14: n
+        o15: n
+        o16: n
+        o17: n
+        o18: n
+        o19: n
+        o20: n
+        o21: n
+        o22: s
+        o23: s
+        o24: s
+        o25: s
+        o26: s
+        o27: s
+        o28: s
+      mmi1x2_sc:
+        o1: w
+        o2: n
+        o3: e
     component_icons:
       mmi1x2_sc:
         - - 1.0000000000000002
