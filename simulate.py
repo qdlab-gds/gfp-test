@@ -11,7 +11,7 @@ PDK.activate()
 PICS_PATH = os.path.join("/", os.environ.get("GIT_REPO", ""), "pics")
 PDK.register_cells_yaml(PICS_PATH, update=True)
 
-c = gf.get_component("demo")
+c = gf.get_component("lattice")
 netlist = sax.netlist(c.get_netlist(recursive=True))
 print(
     {
@@ -22,11 +22,7 @@ print(
 
 circuit, _ = sax.circuit(
     netlist,
-    models={
-        "bend_euler": PDK.models["bend_euler"],
-        "coupler": PDK.models["coupler"],
-        "straight": PDK.models["straight"],
-    },
+    models=PDK.models,
 )
 
 wl = jnp.linspace(1.5, 1.6, 1000)
@@ -34,6 +30,6 @@ result = sax.sdict(circuit(wl=wl))
 print(list(result))
 
 
-p = plt.plot(wl, 10 * jnp.log10(abs(result["o1", "o3"]) ** 2))
-q = plt.plot(wl, 10 * jnp.log10(abs(result["o1", "o4"]) ** 2))
+plt.plot(wl, 10 * jnp.log10(abs(result["o1", "o2"]) ** 2))
+plt.plot(wl, 10 * jnp.log10(abs(result["o1", "o3"]) ** 2))
 plt.show()
