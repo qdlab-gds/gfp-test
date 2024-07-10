@@ -16,6 +16,7 @@ notebooks/schematic.yaml
 .virtual_documents
 
 *.png
+*.html
 
 # C extensions
 *.so
