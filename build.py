@@ -2,6 +2,7 @@ import os
 
 import gdsfactory as gf
 from cspdk.si220 import PDK
+from dodesign.show import show
 
 PDK.activate()
 
@@ -29,5 +30,6 @@ c = gf.read.from_yaml(yaml_str)
 for inst in c.insts:
     print(inst.name, inst.dx, inst.dy)
 
-c.write_gds("test.gds")
-c.show()
+
+show(c.get_netlist())
+show(c)
