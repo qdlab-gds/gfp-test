@@ -18,12 +18,18 @@ routes:
     links:
       tl,e3: tr,e1
       bl,e3: br,e1
+    settings:
+      cross_section: metal_routing
   optical:
     links:
       bl,e4: br,e3
+    settings:
+      cross_section: metal_routing
   bundle:
     links:
       tl,e4: tr,e4
+    settings:
+      cross_section: metal_routing
 ports: {}
 placements:
   br:
