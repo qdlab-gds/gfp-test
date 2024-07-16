@@ -1,12 +1,6 @@
 pdk: cspdk.si220
 instances:
-  br:
-    component: pad
-    settings: {}
   tr:
-    component: pad
-    settings: {}
-  bl:
     component: pad
     settings: {}
   tl:
@@ -17,68 +11,13 @@ routes:
   electrical:
     links:
       tl,e3: tr,e1
-      bl,e3: br,e1
-    settings:
-      cross_section: metal_routing
-  optical:
-    links:
-      bl,e4: br,e3
-    settings:
-      cross_section: metal_routing
-  bundle:
-    links:
-      tl,e4: tr,e4
     settings:
       cross_section: metal_routing
 ports: {}
 placements:
-  br:
-    x: 400
-    y: 300
   tl:
     x: 0
     y: 500
   tr:
     x: 400
     y: 600
-info:
-  schematic:
-    implicit_connections: {}
-    component_ports:
-      pad:
-        e2: n
-        pad: n
-        e3: e
-        e4: s
-        e1: w
-    component_icons:
-      pad:
-      - - 1
-        - 1
-      - - 0
-        - 1
-      - - 0
-        - 0
-      - - 1
-        - 0
-    placements:
-      br:
-        x: 107
-        y: 115
-      tr:
-        x: 114
-        y: 97
-      bl:
-        x: 94
-        y: 113
-      tl:
-        x: 94
-        y: 98
-    port_placements: {}
-    hierarchical: []
-    manhattan_fractions:
-      tl,e3-tr,e1: 0.5
-      bl,e3-br,e1: 0.5
-      bl,e4-br,e3: 0.5
-      tl,e4-tr,e4: 0.5
-name: pads

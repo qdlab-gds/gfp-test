@@ -15,6 +15,8 @@ notebooks/demo_jinja_loops.pic.yml
 notebooks/schematic.yaml
 .virtual_documents
 
+*.png
+*.html
 
 # C extensions
 *.so

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://schemas.docode.doplaydo.com/cspdk.si220.json
+pdk: cspdk.si220
+instances:
+  mzi:
+    component: mzi_sc
+    settings: {}
+connections: {}
+routes: {}
+ports: {}
+placements: {}
+info:
+  schematic:
+    implicit_connections: {}
+    component_ports:
+      mzi_sc:
+        o1: w
+        o2: n
+        o3: e
+    hierarchical:
+      - mzi_sc
+    placements:
+      mzi:
+        x: 200
+        y: 200
+    port_placements: {}
+    manhattan_fractions: {}

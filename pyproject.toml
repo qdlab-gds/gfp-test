@@ -1,0 +1,13 @@
+[tool.dodesign]
+name = "demo"
+
+[tool.dodesign.pdk]
+tag = "generic"
+name = "cspdk.si220"
+
+[tool.basedpyright]
+reportMissingImports = true
+reportMissingTypeStubs = false
+reportUnknownMemberType = false
+reportUnusedCallResult = false
+pythonPlatform = "Linux"
