@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-project-demo/out/schemas/tooclose.json
+pdk: cspdk.si220
+instances:
+  wg1:
+    component: straight_sc
+  wg2:
+    component: straight_sc
+connections: {}
+routes: {}
+ports: {}
+placements:
+  wg1:
+    x: 0
+    y: 0
+  wg2:
+    x: 0
+    y: 0.5
+info:
+  schematic:
+    implicit_connections: {}
+    component_ports:
+      straight_sc:
+        o1: w
+        o2: e
+    hierarchical: []
+    placements:
+      wg1:
+        x: 300
+        y: 500
+      wg2:
+        x: 300
+        y: 100
+    port_placements: {}
+    manhattan_fractions: {}
