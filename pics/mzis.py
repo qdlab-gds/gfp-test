@@ -2,14 +2,14 @@ import gdsfactory as gf
 
 
 @gf.cell
-def mzi3() -> gf.Component:
+def mzi3(delta_length=10.0) -> gf.Component:
     c = gf.Component()
 
     # components
     mmi_in = gf.get_component("mmi1x2_sc")
     mmi_out = gf.get_component("mmi2x2_sc")
     bend = gf.get_component("bend_sc")
-    half_delay_straight = gf.get_component("straight_sc", length=10.0)
+    half_delay_straight = gf.get_component("straight_sc", length=delta_length / 2)
 
     # references
     mmi_in_ref = c << mmi_in
