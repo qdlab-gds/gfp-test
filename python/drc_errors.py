@@ -1,5 +1,4 @@
 """Write GDS with sample errors."""
-from dodesign.show import show
 
 from __future__ import annotations
 
@@ -93,5 +92,5 @@ if __name__ == "__main__":
     # c.write_gds("snap.gds")
 
     c = errors()
-    # c.write_gds("errors.gds")
+    c.write_gds("out/gds/errors.gds")
     show(c)
