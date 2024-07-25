@@ -1,31 +1,59 @@
+# yaml-language-server: $schema=file:///dodesign-project-demo/out/schemas/pads.json
 pdk: cspdk.si220
 instances:
-    bl:
-      component: pad
-    tl:
-      component: pad
-    br:
-      component: pad
-    tr:
-      component: pad
-
-placements:
-    tl:
-        x: 000
-        y: 500
-    br:
-        x: 400
-        y: 400
-    tr:
-        x: 400
-        y: 600
-
+  bl:
+    component: pad
+  tl:
+    component: pad
+  br:
+    component: pad
+  tr:
+    component: pad
+connections: {}
 routes:
-    electrical:
-        settings:
-            separation: 20
-            end_straight_length: 100
-            cross_section: metal_routing
-        links:
-            tl,e3: tr,e1
-            bl,e3: br,e1
+  electrical:
+    routing_strategy: route_bundle_metal
+    settings:
+      separation: 20
+      end_straight_length: 100
+      cross_section: metal_routing
+    links:
+      tl,e3: tr,e1
+      bl,e3: br,e1
+ports: {}
+placements:
+  tl:
+    x: 0
+    y: 500
+  br:
+    x: 400
+    y: 400
+  tr:
+    x: 400
+    y: 600
+info:
+  schematic:
+    implicit_connections: {}
+    component_ports:
+      pad:
+        e1: w
+        e2: n
+        e3: e
+        e4: s
+        pad: n
+    hierarchical: []
+    placements:
+      bl:
+        x: 140
+        y: 471
+      tl:
+        x: 140
+        y: 186
+      br:
+        x: 460
+        y: 243
+      tr:
+        x: 460
+        y: 129
+    port_placements: {}
+    manhattan_fractions: {}
