@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -79,3 +80,4 @@ if __name__ == "__main__":
     # c = coupler_ring_bend()
     c = ring_double_bend_coupler()
     c.show()
+    show(c)

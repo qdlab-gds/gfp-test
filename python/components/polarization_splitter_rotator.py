@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from numpy import ndarray
 
@@ -106,3 +107,4 @@ def polarization_splitter_rotator(
 if __name__ == "__main__":
     c = polarization_splitter_rotator(length_taper_in=(10, 69))
     c.show()
+    show(c)

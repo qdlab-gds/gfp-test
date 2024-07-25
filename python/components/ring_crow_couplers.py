@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -122,3 +123,4 @@ if __name__ == "__main__":
     )
     c.show()
     # print(c.insts["bot_right_bend_ring_0"].ports)
+    show(c)

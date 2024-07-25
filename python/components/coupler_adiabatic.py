@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -124,3 +125,4 @@ def coupler_adiabatic(
 if __name__ == "__main__":
     c = coupler_adiabatic(length3=5)
     c.show()
+    show(c)

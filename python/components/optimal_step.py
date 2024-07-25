@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -193,3 +194,4 @@ def optimal_step(
 if __name__ == "__main__":
     c = optimal_step()
     c.show()
+    show(c)

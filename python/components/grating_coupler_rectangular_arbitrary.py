@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -145,3 +146,4 @@ if __name__ == "__main__":
         cross_section="rib_bbox", slab_offset=2.0, layer_slab=(2, 0)
     )
     c.show()
+    show(c)

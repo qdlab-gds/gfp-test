@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import warnings
 
@@ -104,3 +105,4 @@ if __name__ == "__main__":
     # length_computed = c.area() / 0.5
     # assert np.isclose(length, length_computed), length_computed
     c.show()
+    show(c)

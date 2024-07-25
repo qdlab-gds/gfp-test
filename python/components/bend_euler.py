@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -258,3 +259,4 @@ if __name__ == "__main__":
     # c = bend_euler(cross_section="rib", angle=90, radius=20, clockwise=True)
     c = bend_euler(angle=-90)
     c.show()
+    show(c)

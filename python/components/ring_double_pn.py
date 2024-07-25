@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -222,3 +223,4 @@ ring_single_pn = partial(ring_double_pn, with_drop=False)
 if __name__ == "__main__":
     c = ring_double_pn(with_drop=False)
     c.show()
+    show(c)

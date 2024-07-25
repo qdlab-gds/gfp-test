@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import kfactory as kf
 
@@ -82,3 +83,4 @@ if __name__ == "__main__":
         with_loopback=True, centered=True, cross_section="rib_bbox"
     )
     c.show()
+    show(c)

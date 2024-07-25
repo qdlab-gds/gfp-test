@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -269,3 +270,4 @@ if __name__ == "__main__":
     # c = gf.components.grating_coupler_elliptical_te()
     c = gf.components.grating_coupler_elliptical_tm()
     c.show()
+    show(c)

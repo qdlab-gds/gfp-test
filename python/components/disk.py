@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -198,3 +199,4 @@ if __name__ == "__main__":
     # c = disk_heater(wrap_angle_deg=75)
     c = disk_heater()
     c.show()
+    show(c)

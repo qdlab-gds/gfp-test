@@ -1,4 +1,5 @@
 """Waveguide crossings."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -316,3 +317,4 @@ def crossing45(
 if __name__ == "__main__":
     c = crossing45()
     c.show()
+    show(c)

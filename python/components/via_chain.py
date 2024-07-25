@@ -1,4 +1,5 @@
 """Via chain."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -158,3 +159,4 @@ def via_chain(
 if __name__ == "__main__":
     c = via_chain(num_vias=40)
     c.show()
+    show(c)

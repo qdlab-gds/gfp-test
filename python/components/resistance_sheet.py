@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -77,3 +78,4 @@ if __name__ == "__main__":
     # sweep_resistance = list(map(resistance_sheet, (5, 10, 80)))
     # c = gf.grid(sweep_resistance)
     # c.show( )
+    show(c)

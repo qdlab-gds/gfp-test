@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import warnings
 from functools import partial
@@ -146,3 +147,4 @@ if __name__ == "__main__":
     # c = pad_array(columns=2, rows=2, orientation=270)
     # c.auto_rename_ports()
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -108,3 +109,4 @@ def optimal_hairpin(
 if __name__ == "__main__":
     c = optimal_hairpin()
     c.show()
+    show(c)

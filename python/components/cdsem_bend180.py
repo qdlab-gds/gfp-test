@@ -1,4 +1,5 @@
 """CD SEM structures."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -68,3 +69,4 @@ def cdsem_bend180(
 if __name__ == "__main__":
     c = cdsem_bend180(width=2)
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -287,3 +288,4 @@ if __name__ == "__main__":
     c.show()
     # scene = c.to_3d()
     # scene.show()
+    show(c)

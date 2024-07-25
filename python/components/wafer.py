@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.typings import Component, ComponentFactory
@@ -44,3 +45,4 @@ def wafer(
 if __name__ == "__main__":
     c = wafer(die_name_col_row=True)
     c.show()
+    show(c)

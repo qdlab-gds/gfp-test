@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from collections import Counter
 
@@ -229,3 +230,4 @@ if __name__ == "__main__":
     # c.name = "top"
     # lyrdb = c.connectivity_check()
     # gf.show(c, lyrdb=lyrdb)
+    show(c)

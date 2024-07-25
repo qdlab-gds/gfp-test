@@ -1,4 +1,5 @@
 from functools import partial
+from dodesign.show import show
 
 import numpy as np
 
@@ -102,3 +103,4 @@ if __name__ == "__main__":
     # c = components[0]
     c = cutback_loss()[0]
     c.show()
+    show(c)

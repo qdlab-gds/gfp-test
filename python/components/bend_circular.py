@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -139,3 +140,4 @@ if __name__ == "__main__":
     r = c << bend_circular(radius=5)
     # r.dmirror()
     c.show()
+    show(c)

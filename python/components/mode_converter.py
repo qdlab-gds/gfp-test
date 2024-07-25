@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -107,3 +108,4 @@ if __name__ == "__main__":
     c = mode_converter(cross_section="rib")
     c.pprint_ports()
     c.show()
+    show(c)

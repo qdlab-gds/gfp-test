@@ -1,4 +1,5 @@
 """Straight waveguide."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -83,3 +84,4 @@ if __name__ == "__main__":
     p = list(p.values())
     print(p[0][0])
     c.show()
+    show(c)

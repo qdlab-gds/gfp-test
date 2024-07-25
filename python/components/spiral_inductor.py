@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -39,3 +40,4 @@ def spiral_inductor(
 if __name__ == "__main__":
     c = spiral_inductor()
     c.show()
+    show(c)

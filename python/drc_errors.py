@@ -1,4 +1,5 @@
 """Write GDS with sample errors."""
+from dodesign.show import show
 
 from __future__ import annotations
 

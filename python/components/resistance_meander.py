@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -98,3 +99,4 @@ def resistance_meander(
 if __name__ == "__main__":
     c = resistance_meander(num_squares=500)
     c.show()
+    show(c)

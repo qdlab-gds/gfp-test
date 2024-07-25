@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -135,3 +136,4 @@ if __name__ == "__main__":
     # cc = triangle(xtop=5, ybot=5)
     cc = triangle4_thin(spacing=0)
     cc.show()
+    show(c)

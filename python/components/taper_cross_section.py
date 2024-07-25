@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -85,3 +86,4 @@ if __name__ == "__main__":
     # c = taper_cross_section(cross_section1, cross_section2)
     c = taper_cross_section_parabolic()
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -57,3 +58,4 @@ def dicing_lane(
 if __name__ == "__main__":
     c = dicing_lane()
     c.show()
+    show(c)

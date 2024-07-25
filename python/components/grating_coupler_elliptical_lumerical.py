@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 from typing import Any
@@ -160,3 +161,4 @@ if __name__ == "__main__":
     # c = grating_coupler_elliptical_lumerical_etch70()
     c = grating_coupler_elliptical_lumerical()
     c.show()
+    show(c)

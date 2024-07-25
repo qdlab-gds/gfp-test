@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 from numpy import ndarray
@@ -151,3 +152,4 @@ if __name__ == "__main__":
     control_points = ((0.0, 0.0), (5.0, 0.0), (5.0, 5.0), (10.0, 5.0))
     c = bezier(control_points=control_points)
     c.show()
+    show(c)

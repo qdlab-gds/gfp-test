@@ -1,4 +1,5 @@
 """High speed GSG pads."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -68,3 +69,4 @@ if __name__ == "__main__":
     c = pad_gsg_short()
     # c = pad_gsg_open()
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import kfactory as kf
 import numpy as np
@@ -133,3 +134,4 @@ if __name__ == "__main__":
     # c2.show( )
     # c.plot()
     c.show()
+    show(c)

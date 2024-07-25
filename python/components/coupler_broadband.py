@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -141,3 +142,4 @@ def coupler_broadband(
 if __name__ == "__main__":
     c = coupler_broadband(cross_section="rib")
     c.show()
+    show(c)

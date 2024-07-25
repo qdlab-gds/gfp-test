@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory import cell
@@ -97,3 +98,4 @@ if __name__ == "__main__":
     # c2.show( )
     # c2.show(show_subports=True)
     # c2.show()
+    show(c)

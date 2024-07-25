@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory import cell
@@ -59,3 +60,4 @@ def litho_calipers(
 if __name__ == "__main__":
     c = litho_calipers()
     c.show()
+    show(c)

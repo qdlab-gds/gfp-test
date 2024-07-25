@@ -1,4 +1,5 @@
 """Straight Ge photodetector."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -84,3 +85,4 @@ if __name__ == "__main__":
         via_stack=via_stack_slab_m3, via_stack_offset=0
     )
     c.show()
+    show(c)

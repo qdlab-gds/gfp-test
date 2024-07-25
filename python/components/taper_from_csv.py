@@ -1,4 +1,5 @@
 """Adiabatic tapers from CSV files."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -78,3 +79,4 @@ if __name__ == "__main__":
     c = taper_w10_l100(cross_section="rib")
     # c = taper_w11_l200()
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory import cell
@@ -360,3 +361,4 @@ if __name__ == "__main__":
     c = mzi_lattice_mmi()
     # c.get_netlist()
     c.show()
+    show(c)

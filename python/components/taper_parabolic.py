@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -46,3 +47,4 @@ if __name__ == "__main__":
     c = taper_parabolic()
     print(c.name)
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -67,3 +68,4 @@ def coupler_asymmetric(
 if __name__ == "__main__":
     c = coupler_asymmetric(gap=0.2)
     c.show()
+    show(c)

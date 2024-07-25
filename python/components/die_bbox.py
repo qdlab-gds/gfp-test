@@ -1,4 +1,5 @@
 """based on phidl.geometry."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -105,3 +106,4 @@ if __name__ == "__main__":
     # c = die_bbox(component=mask, die_name="chip99")
     c = die_bbox(component=mask, die_name="chip99", text_anchor="se")
     c.show()
+    show(c)

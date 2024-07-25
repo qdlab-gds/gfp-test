@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -140,3 +141,4 @@ if __name__ == "__main__":
     c.pprint_ports()
     # c = gf.components.extension.extend_ports(component=c)
     c.show()
+    show(c)

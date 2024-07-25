@@ -1,4 +1,5 @@
 from typing import Any
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.typings import ComponentSpec, CrossSectionSpec
@@ -134,3 +135,4 @@ if __name__ == "__main__":
         pad_spacing=100,
     )
     c.show()
+    show(c)

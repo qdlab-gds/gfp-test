@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -44,3 +45,4 @@ if __name__ == "__main__":
     c = hline(width=10)
     print(c)
     c.show()
+    show(c)

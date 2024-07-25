@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -66,3 +67,4 @@ if __name__ == "__main__":
     # c = rectangle(size=(3, 2), centered=True, layer=(2, 3))
     c = octagon(sides=8)
     c.show()
+    show(c)

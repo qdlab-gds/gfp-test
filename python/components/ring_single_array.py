@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -60,3 +61,4 @@ def ring_single_array(
 if __name__ == "__main__":
     c = ring_single_array(cross_section="strip")
     c.show()
+    show(c)

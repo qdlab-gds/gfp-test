@@ -1,4 +1,5 @@
 """based on phidl.geometry."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -119,3 +120,4 @@ if __name__ == "__main__":
     c.show()
     # c.show( )
     # c.plot()
+    show(c)

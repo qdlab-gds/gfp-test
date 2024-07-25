@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -66,3 +67,4 @@ add_trenches90 = partial(add_trenches, component=bend_euler, top=0, left=0, righ
 if __name__ == "__main__":
     c = add_trenches90()
     c.show()
+    show(c)

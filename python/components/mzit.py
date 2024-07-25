@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -201,3 +202,4 @@ if __name__ == "__main__":
     # c = mzit(delta_length=20, coupler_gap1=0.5, coupler_gap2=0.1)
     # c = mzit(coupler_length1=200)
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 """Returns a switch_tree.
+from dodesign.show import show
 
           __
         _|  |_
@@ -201,3 +202,4 @@ if __name__ == "__main__":
     # print(len(c.ports))
     # for port in c.get_ports_list():
     #     print(port)
+    show(c)

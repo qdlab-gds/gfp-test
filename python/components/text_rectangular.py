@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -95,3 +96,4 @@ text_rectangular_mini = partial(text_rectangular, size=1)
 if __name__ == "__main__":
     c = text_rectangular_multi_layer()
     c.show()
+    show(c)

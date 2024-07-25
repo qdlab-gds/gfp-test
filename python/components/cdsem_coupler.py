@@ -1,4 +1,5 @@
 """CD SEM structures."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -63,3 +64,4 @@ if __name__ == "__main__":
     # c = cdsem_coupler(cross_section="rib_with_trenches")
     c = cdsem_coupler(cross_section="strip")
     c.show()
+    show(c)

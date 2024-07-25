@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -65,3 +66,4 @@ def coupler90bend(
 if __name__ == "__main__":
     c = coupler90bend()
     c.show()
+    show(c)

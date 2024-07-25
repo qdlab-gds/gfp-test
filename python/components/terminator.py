@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.add_padding import get_padding_points
@@ -54,3 +55,4 @@ if __name__ == "__main__":
     # c = terminator(cross_section_input=partial(gf.cross_section.strip, width=10))
     c = terminator()
     c.show()
+    show(c)

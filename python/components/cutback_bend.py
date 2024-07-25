@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -249,3 +250,4 @@ if __name__ == "__main__":
     # c = cutback_bend180(rows=2, cols=2)
     # c = cutback_bend(rows=3, cols=2)
     c.show()
+    show(c)

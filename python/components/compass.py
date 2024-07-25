@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory import cell
@@ -85,3 +86,4 @@ if __name__ == "__main__":
     c = compass(size=(10, 4), port_type="electrical")
     c.pprint_ports()
     c.show()
+    show(c)

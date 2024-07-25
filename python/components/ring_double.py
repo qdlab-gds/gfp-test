@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -90,3 +91,4 @@ def ring_double(
 if __name__ == "__main__":
     c = ring_double(length_y=2, bend="bend_circular")
     c.show()
+    show(c)

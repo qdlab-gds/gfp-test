@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -83,3 +84,4 @@ if __name__ == "__main__":
     # c.pprint()
     print(c)
     c.show()
+    show(c)

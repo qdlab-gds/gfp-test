@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import warnings
 
@@ -100,3 +101,4 @@ if __name__ == "__main__":
     c = delay_snake2()
     # c = gf.grid((gf.c.delay_snake, delay_snake2(length0=100), gf.c.delay_snake3))
     c.show()
+    show(c)

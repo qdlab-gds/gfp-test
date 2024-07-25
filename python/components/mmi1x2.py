@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -108,3 +109,4 @@ def mmi1x2(
 if __name__ == "__main__":
     c = mmi1x2(cross_section="rib")
     c.show()
+    show(c)

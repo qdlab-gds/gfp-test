@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory import cell
@@ -162,3 +163,4 @@ if __name__ == "__main__":
 
     c = mzi_arms(splitter=partial(gf.c.mmi1x2, gap_mmi=1), combiner=gf.c.mmi1x2)
     c.show()
+    show(c)

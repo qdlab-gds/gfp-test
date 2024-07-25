@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -84,3 +85,4 @@ def cutback_splitter(
 if __name__ == "__main__":
     c = cutback_splitter()
     c.show()
+    show(c)

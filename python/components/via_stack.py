@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import warnings
 from functools import partial
@@ -350,3 +351,4 @@ if __name__ == "__main__":
     c.pprint_ports()
     # n = c.get_netlist()
     c.show()
+    show(c)

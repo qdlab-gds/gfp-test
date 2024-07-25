@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -47,3 +48,4 @@ def coupler_straight(
 if __name__ == "__main__":
     c = coupler_straight(length=2)
     c.show()
+    show(c)

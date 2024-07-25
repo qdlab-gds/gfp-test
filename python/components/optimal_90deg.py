@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -65,3 +66,4 @@ def optimal_90deg(
 if __name__ == "__main__":
     c = optimal_90deg()
     c.show()
+    show(c)

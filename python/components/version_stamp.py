@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import datetime
 import platform
@@ -105,3 +106,4 @@ if __name__ == "__main__":
         text_size=20,
     )
     c.show()
+    show(c)

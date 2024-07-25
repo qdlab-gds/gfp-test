@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from gdsfactory import cell
 from gdsfactory.component import Component
@@ -63,3 +64,4 @@ if __name__ == "__main__":
     # c << m
     # c << e
     # c.show( )
+    show(c)

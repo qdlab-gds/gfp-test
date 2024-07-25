@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.typings import LayerSpec
@@ -40,3 +41,4 @@ def litho_ruler(
 if __name__ == "__main__":
     c = litho_ruler()
     c.show()
+    show(c)

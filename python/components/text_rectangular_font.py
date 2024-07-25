@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import cache
 
@@ -326,3 +327,4 @@ def rectangular_font() -> dict[str, str]:
 if __name__ == "__main__":
     c = pixel_array()
     c.show()
+    show(c)

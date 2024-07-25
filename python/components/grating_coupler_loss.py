@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory import cell
@@ -279,3 +280,4 @@ if __name__ == "__main__":
     # c = grating_coupler_loss_fiber_array(layer=(2, 0), radius=30)
     c = grating_coupler_loss_fiber_array()
     c.show()
+    show(c)

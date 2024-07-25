@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -507,3 +508,4 @@ if __name__ == "__main__":
     # c = spiral_racetrack_heater_metal()
     # c = spiral_racetrack_heater_doped()
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 """Each component factory component returns a component.
+from dodesign.show import show
 
 Make sure your components get imported here so the PDK registers them.
 """
@@ -573,3 +574,4 @@ __all__ = [
 ]
 
 cells = get_cells(sys.modules[__name__])
+    show(c)

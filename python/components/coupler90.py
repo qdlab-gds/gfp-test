@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -68,3 +69,4 @@ coupler90circular = partial(coupler90, bend="bend_circular")
 if __name__ == "__main__":
     c = coupler90(radius=10, cross_section_bend="strip_heater_metal")
     c.show()
+    show(c)

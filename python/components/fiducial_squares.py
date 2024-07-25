@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -31,3 +32,4 @@ def fiducial_squares(
 if __name__ == "__main__":
     c = fiducial_squares()
     c.show()
+    show(c)

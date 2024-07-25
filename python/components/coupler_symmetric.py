@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -78,3 +79,4 @@ if __name__ == "__main__":
     # for dyi in [2, 3, 4, 5]:
     #     c = coupler_symmetric(gap=0.2, width=0.5, dy=dyi, dx=10.0, layer=(2, 0))
     #     print(f"dy={dyi}, min_bend_radius = {c.info['min_bend_radius']}")
+    show(c)

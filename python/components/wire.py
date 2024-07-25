@@ -1,4 +1,5 @@
 """Wires for electrical manhattan routes."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -190,3 +191,4 @@ if __name__ == "__main__":
     # n = c.get_netlist()
     # c = wire_corner45()
     c.show()
+    show(c)

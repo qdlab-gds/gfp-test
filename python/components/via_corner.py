@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from numpy import floor
 
@@ -94,3 +95,4 @@ if __name__ == "__main__":
     v = via_corner()
     # v.plot()
     v.show()
+    show(c)

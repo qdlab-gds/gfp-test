@@ -1,4 +1,5 @@
 """Greek cross test structure."""
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.components.cross import cross
@@ -143,3 +144,4 @@ def greek_cross_with_pads(
 if __name__ == "__main__":
     c = greek_cross_with_pads()
     c.show()
+    show(c)

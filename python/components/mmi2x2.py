@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -104,3 +105,4 @@ if __name__ == "__main__":
     c = mmi2x2(gap_mmi=0.252, cross_section="rib")
     c.show()
     # c.pprint()
+    show(c)

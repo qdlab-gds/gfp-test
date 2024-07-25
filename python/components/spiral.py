@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.typings import ComponentSpec
@@ -116,3 +117,4 @@ def spiral(
 if __name__ == "__main__":
     c = spiral(cross_section="rib", length=10, spacing=3.0)
     c.show()
+    show(c)

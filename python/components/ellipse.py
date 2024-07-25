@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 from numpy import cos, pi, sin, sqrt
@@ -39,3 +40,4 @@ def ellipse(
 if __name__ == "__main__":
     c = ellipse()
     c.show()
+    show(c)

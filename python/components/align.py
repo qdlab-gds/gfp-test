@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory import cell
@@ -117,3 +118,4 @@ if __name__ == "__main__":
     c = add_frame(component=c)
     # c = align_wafer()
     c.show()
+    show(c)

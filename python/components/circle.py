@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 from numpy import cos, pi, sin
@@ -34,3 +35,4 @@ def circle(
 if __name__ == "__main__":
     c = circle()
     c.show()
+    show(c)

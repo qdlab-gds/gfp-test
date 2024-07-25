@@ -1,4 +1,5 @@
 import numpy as np
+from dodesign.show import show
 
 import gdsfactory as gf
 
@@ -138,3 +139,4 @@ if __name__ == "__main__":
     # c = coupler_bent_half()
     # c = coupler_bent()
     c.show()
+    show(c)

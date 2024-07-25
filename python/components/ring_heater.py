@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -170,3 +171,4 @@ if __name__ == "__main__":
     c = ring_single_heater()
     c.pprint_ports()
     c.show()
+    show(c)

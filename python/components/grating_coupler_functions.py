@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from numpy import pi, sin, sqrt
 
@@ -61,3 +62,4 @@ if __name__ == "__main__":
     p = get_grating_period()
     print(pc)
     print(p)
+    show(c)

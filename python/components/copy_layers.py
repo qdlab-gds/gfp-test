@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory import cell
@@ -30,3 +31,4 @@ def copy_layers(
 if __name__ == "__main__":
     c = copy_layers(gf.components.rectangle)
     c.show()
+    show(c)

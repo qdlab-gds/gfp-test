@@ -1,4 +1,5 @@
 """CD SEM structures."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -57,3 +58,4 @@ def cdsem_straight(
 if __name__ == "__main__":
     c = cdsem_straight()
     c.show()
+    show(c)

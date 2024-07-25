@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -218,3 +219,4 @@ if __name__ == "__main__":
     c = seal_ring_segmented()
 
     c.show()
+    show(c)

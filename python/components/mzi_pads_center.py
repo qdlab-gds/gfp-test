@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.routing.route_single import route_single_electrical
@@ -121,3 +122,4 @@ if __name__ == "__main__":
     # c = mzi_ps_fs()
     c = mzi_pads_center()
     c.show()
+    show(c)

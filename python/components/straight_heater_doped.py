@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -261,3 +262,4 @@ def straight_heater_doped_strip(
 if __name__ == "__main__":
     c = straight_heater_doped_rib(length=200)
     c.show()
+    show(c)

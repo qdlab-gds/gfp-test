@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import pathlib
 import warnings
@@ -117,3 +118,4 @@ if __name__ == "__main__":
     # print(c2.name)
     # c2 = text_freetype()
     c2.show()
+    show(c)

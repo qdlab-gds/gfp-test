@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -74,3 +75,4 @@ if __name__ == "__main__":
     # c = rectangle_with_slits(layer_slit=None)
     c = rectangle_with_slits(slit_size=(10, 10), centered=True)
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import warnings
 
@@ -165,3 +166,4 @@ if __name__ == "__main__":
     p0 = c0["o1"]
     c = extend_ports(c0, extension=t)
     c.show()
+    show(c)

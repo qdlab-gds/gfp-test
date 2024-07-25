@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -277,3 +278,4 @@ if __name__ == "__main__":
 
     # c3 = gf.grid([c2, c1])
     # c3.show()
+    show(c)

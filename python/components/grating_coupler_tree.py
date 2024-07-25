@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -54,3 +55,4 @@ if __name__ == "__main__":
     c = grating_coupler_tree()
     # print(c.settings)
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -57,3 +58,4 @@ def C(
 if __name__ == "__main__":
     c = C(width=1.0)
     c.show()
+    show(c)

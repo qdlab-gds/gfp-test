@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -111,3 +112,4 @@ if __name__ == "__main__":
     # c = bend_s_biased()
     # print(c.info["min_bend_radius"])
     # c.show()
+    show(c)

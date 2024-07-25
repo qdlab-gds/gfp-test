@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -66,3 +67,4 @@ if __name__ == "__main__":
     c = coupler(gap=0.2)
     n = c.get_netlist()
     c.show()
+    show(c)

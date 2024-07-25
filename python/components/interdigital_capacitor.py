@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from itertools import chain
 from math import ceil, floor
@@ -114,3 +115,4 @@ def interdigital_capacitor(
 if __name__ == "__main__":
     c = interdigital_capacitor()
     c.show()
+    show(c)

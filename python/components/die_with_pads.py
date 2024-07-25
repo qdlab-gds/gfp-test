@@ -1,4 +1,5 @@
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.generic_tech import LAYER
 from gdsfactory.typings import ComponentSpec, CrossSectionSpec, LayerSpec
 
@@ -95,3 +96,4 @@ def die_with_pads(
 if __name__ == "__main__":
     c = die_with_pads()
     c.show()
+    show(c)

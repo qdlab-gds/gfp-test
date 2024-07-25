@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 
@@ -115,3 +116,4 @@ def snspd(
 if __name__ == "__main__":
     c = snspd()
     c.show()
+    show(c)

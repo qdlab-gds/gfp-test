@@ -1,4 +1,5 @@
 """DBR gratings.
+from dodesign.show import show
 
 wavelength = 2*period*neff
 period = wavelength/2/neff
@@ -128,3 +129,4 @@ if __name__ == "__main__":
     # c = dbr_cell()
     # c.assert_ports_on_grid()
     c.show()
+    show(c)

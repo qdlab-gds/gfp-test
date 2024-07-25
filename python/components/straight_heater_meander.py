@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -219,3 +220,4 @@ if __name__ == "__main__":
         # cross_section=partial(gf.cross_section.strip, width=0.8),
     )
     c.show()
+    show(c)

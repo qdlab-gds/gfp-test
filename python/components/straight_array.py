@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.component import Component
@@ -39,3 +40,4 @@ if __name__ == "__main__":
     c = straight_array()
     # c.pprint_ports()
     c.show()
+    show(c)

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import gdsfactory as gf
 from gdsfactory.components import bend_circular
@@ -68,3 +69,4 @@ if __name__ == "__main__":
     print(c.ports["o1"].orientation)
     print(c.ports["o2"].orientation)
     c.show()
+    show(c)

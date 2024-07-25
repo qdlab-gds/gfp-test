@@ -1,4 +1,5 @@
 """Sagnac loop_mirror."""
+from dodesign.show import show
 
 from __future__ import annotations
 
@@ -37,3 +38,4 @@ def loop_mirror(
 if __name__ == "__main__":
     c = loop_mirror()
     c.show()
+    show(c)

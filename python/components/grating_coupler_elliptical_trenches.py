@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -159,3 +160,4 @@ if __name__ == "__main__":
     # print(c.ports.keys())
     # c = gf.routing.add_fiber_array(grating_coupler=grating_coupler_elliptical_trenches)
     c.show()
+    show(c)

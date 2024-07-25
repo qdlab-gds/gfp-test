@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 from functools import partial
 
@@ -54,3 +55,4 @@ if __name__ == "__main__":
     # cc = add_termination(component=c, orientation=0)
     cc.pprint_ports()
     cc.show()
+    show(c)

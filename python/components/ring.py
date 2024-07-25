@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import numpy as np
 from numpy import cos, pi, sin
@@ -43,3 +44,4 @@ def ring(
 if __name__ == "__main__":
     c = ring(radius=5, angle=270)
     c.show()
+    show(c)

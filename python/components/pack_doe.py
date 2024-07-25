@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dodesign.show import show
 
 import itertools as it
 from typing import Any
@@ -177,3 +178,4 @@ if __name__ == "__main__":
     c = pack_doe(doe="mmi1x2", settings=dict(length_mmi=[2, 100], width_mmi=[4, 10]))
     # c = pack_doe()
     c.show()
+    show(c)
