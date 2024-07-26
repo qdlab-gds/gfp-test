@@ -3,7 +3,7 @@ from dodesign.show import show
 import pathlib
 
 # Specify the directory containing the Python files
-directory = pathlib.Path(__file__).parent.absolute() / "components"
+directory = pathlib.Path(__file__).parent.absolute() / "samples"
 
 # The line you want to prepend
 line_to_prepend = "from dodesign.show import show\n"
