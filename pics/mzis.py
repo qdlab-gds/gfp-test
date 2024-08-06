@@ -2,7 +2,7 @@ import gdsfactory as gf
 
 
 @gf.cell
-def mzi3(delta_length=10.0) -> gf.Component:
+def mzi3(delta_length=100.0) -> gf.Component:
     c = gf.Component()
 
     # components
