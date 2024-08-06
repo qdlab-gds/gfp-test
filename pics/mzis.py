@@ -55,8 +55,10 @@ def mzi3(delta_length=100.0) -> gf.Component:
 
 
 if __name__ == "__main__":
+    from dodesign.show import show
     from cspdk.si220 import PDK
 
     PDK.activate()
     c = mzi3()
-    c.show()
+    c.write_gds("test.gds")
+    show("test.gds")
