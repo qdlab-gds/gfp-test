@@ -14,6 +14,10 @@ notebooks/demo.yml
 notebooks/demo_jinja_loops.pic.yml
 notebooks/schematic.yaml
 .virtual_documents
+notebooks/gplugins/pads_correct.txt
+notebooks/gplugins/pads_correct_Ppad_CSmetal3.txt
+notebooks/gplugins/pads_shorted.txt
+notebooks/gplugins/pads_shorted_Ppad_CSmetal3.txt
 
 *.png
 *.html
