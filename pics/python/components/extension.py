@@ -1,5 +1,4 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import warnings
 
@@ -7,6 +6,7 @@ import numpy as np
 from numpy import ndarray
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.mmi1x2 import mmi1x2
 from gdsfactory.cross_section import cross_section as cross_section_function

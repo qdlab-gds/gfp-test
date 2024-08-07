@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-from dodesign.show import show
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.via import via1
 from gdsfactory.components.via_stack import via_stack_m2_m3

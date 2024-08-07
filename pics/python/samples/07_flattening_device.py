@@ -9,8 +9,8 @@ The Component.flatten() method flattens current Component by copying all polygon
 
 from __future__ import annotations
 
-from dodesign.show import show
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 
 

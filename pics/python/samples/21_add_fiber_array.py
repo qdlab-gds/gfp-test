@@ -1,9 +1,9 @@
 """You can route all component optical ports to a fiber array."""
 
 from __future__ import annotations
-from dodesign.show import show
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.samples.big_device import big_device
 
 

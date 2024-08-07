@@ -1,4 +1,5 @@
 """Returns a switch_tree.
+
 from dodesign.show import show
 
           __
@@ -16,13 +17,13 @@ _|  |__          |dy
 """
 
 from __future__ import annotations
-from dodesign.show import show
 
 from functools import partial
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.components.bend_s import bend_s as bend_s_function
 from gdsfactory.components.mmi1x2 import mmi1x2
 from gdsfactory.components.mmi2x2 import mmi2x2

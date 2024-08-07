@@ -3,11 +3,11 @@
 from __future__ import annotations
 
 from functools import partial
-from dodesign.show import show
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.coupler_straight import coupler_straight
 from gdsfactory.components.text_rectangular import text_rectangular

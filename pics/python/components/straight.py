@@ -1,9 +1,9 @@
 """Straight waveguide."""
 
 from __future__ import annotations
-from dodesign.show import show
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component, ComponentAllAngle
 from gdsfactory.cross_section import CrossSectionSpec
 

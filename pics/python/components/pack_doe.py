@@ -1,10 +1,10 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import itertools as it
 from typing import Any
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.grid import grid, grid_with_text
 from gdsfactory.pack import pack

@@ -9,8 +9,8 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from gdsfactory.component import Component
 from dodesign.show import show
+from gdsfactory.component import Component
 from gdsfactory.typings import Layer
 
 

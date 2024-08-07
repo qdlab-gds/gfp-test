@@ -1,11 +1,11 @@
 from __future__ import annotations
-from dodesign.show import show
 
 from functools import partial
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component, ComponentAllAngle, ComponentBase
 from gdsfactory.components.wire import wire_corner
 from gdsfactory.path import euler

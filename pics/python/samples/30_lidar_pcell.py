@@ -7,9 +7,9 @@ Exercise2. Make a PCell.
 """
 
 from __future__ import annotations
-from dodesign.show import show
 
 import gdsfactory as gf
+from dodesign.show import show
 
 
 @gf.cell

@@ -1,13 +1,14 @@
 import os
 
-import gdsfactory as gf
+import altair as alt
 import jax.numpy as jnp
+import pandas as pd
 import sax
 from cspdk.si220 import PDK
-from dodesign.simulate import circuit_plot
+
+import gdsfactory as gf
 from dodesign.show import show
-import pandas as pd
-import altair as alt
+from dodesign.simulate import circuit_plot
 
 PDK.activate()
 

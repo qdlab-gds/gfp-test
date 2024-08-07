@@ -1,11 +1,11 @@
 """based on phidl.geometry."""
 
 from __future__ import annotations
-from dodesign.show import show
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.typings import ComponentFactory, Float2, LayerSpec
 
 

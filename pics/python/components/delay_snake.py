@@ -1,9 +1,9 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import warnings
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.bend_euler import bend_euler180
 from gdsfactory.components.straight import straight

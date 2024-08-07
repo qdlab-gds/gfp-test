@@ -1,9 +1,9 @@
 from __future__ import annotations
-from dodesign.show import show
 
 from numpy import floor
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.components.compass import compass
 from gdsfactory.components.via import via1
 from gdsfactory.cross_section import metal2, metal3

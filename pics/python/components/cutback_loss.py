@@ -1,9 +1,9 @@
 from functools import partial
-from dodesign.show import show
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.components.bend_euler import bend_euler, bend_euler180
 from gdsfactory.components.cutback_bend import cutback_bend90, cutback_bend180
 from gdsfactory.components.cutback_component import cutback_component

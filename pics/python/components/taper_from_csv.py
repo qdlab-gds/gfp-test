@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-from dodesign.show import show
 import pathlib
 from functools import partial
 from pathlib import Path
@@ -10,6 +9,7 @@ from pathlib import Path
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.typings import CrossSectionSpec
 

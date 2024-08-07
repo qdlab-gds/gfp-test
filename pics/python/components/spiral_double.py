@@ -1,7 +1,7 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.components import bend_circular
 from gdsfactory.path import spiral_archimedean
 

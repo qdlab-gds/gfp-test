@@ -1,10 +1,10 @@
 from __future__ import annotations
-from dodesign.show import show
 
 from itertools import chain
 from math import ceil, floor
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.typings import LayerSpec
 

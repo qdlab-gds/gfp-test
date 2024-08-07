@@ -14,7 +14,7 @@ for filename in os.listdir(directory):
         filepath = os.path.join(directory, filename)
 
         # Read the existing contents of the file
-        with open(filepath, "r") as file:
+        with open(filepath) as file:
             content = file.readlines()
 
         # Prepend the new line to the content
