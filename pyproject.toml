@@ -4,6 +4,7 @@ name = "demo"
 [tool.dodesign.pdk]
 tag = "generic"
 name = "cspdk.si220"
+path = "cspdk"
 
 [tool.basedpyright]
 reportMissingImports = true
