@@ -8,16 +8,16 @@ instances:
     component: coupler_sc
     settings: {}
   b1:
-    component: bend_sc
+    component: bend_euler_sc
     settings: {}
   b4:
-    component: bend_sc
+    component: bend_euler_sc
     settings: {}
   b3:
-    component: bend_sc
+    component: bend_euler_sc
     settings: {}
   b2:
-    component: bend_sc
+    component: bend_euler_sc
     settings: {}
 connections:
   b1,o1: c1,o3
