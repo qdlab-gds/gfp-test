@@ -2,7 +2,7 @@
 name = "demo"
 
 [tool.dodesign.pdk]
-tag = "generic"
+tag = "generic-prod"
 name = "cspdk.si220"
 
 [tool.basedpyright]
