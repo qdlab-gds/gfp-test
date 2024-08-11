@@ -8,7 +8,7 @@ def mzi3(delta_length=100.0) -> gf.Component:
     # components
     mmi_in = gf.get_component("mmi1x2_sc")
     mmi_out = gf.get_component("mmi2x2_sc")
-    bend = gf.get_component("bend_sc")
+    bend = gf.get_component("bend_euler_sc")
     half_delay_straight = gf.get_component("straight_sc", length=delta_length / 2)
 
     # references
@@ -55,8 +55,8 @@ def mzi3(delta_length=100.0) -> gf.Component:
 
 
 if __name__ == "__main__":
-    from dodesign.show import show
     from cspdk.si220 import PDK
+    from dodesign.show import show
 
     PDK.activate()
     c = mzi3()

@@ -43,7 +43,7 @@ info:
   schematic:
     implicit_connections: {}
     component_ports:
-      bend_sc:
+      bend_euler_sc:
         o1: w
         o2: e
       coupler_rc:
@@ -126,7 +126,7 @@ info:
         - 0.4209550561797752
       - - 0.25
         - 0.4244382022471911
-      bend_sc:
+      bend_euler_sc:
       - - 0.05427872860635698
         - 9.779951100244507e-05
       - - 0.30044009779951103
