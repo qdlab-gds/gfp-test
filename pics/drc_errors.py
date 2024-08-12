@@ -92,5 +92,5 @@ if __name__ == "__main__":
     # c.write_gds("snap.gds")
 
     c = errors()
-    c.write_gds("out/gds/errors.gds")
+    c.show()
     show(c)
