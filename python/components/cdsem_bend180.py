@@ -1,9 +1,9 @@
 """CD SEM structures."""
-from dodesign.show import show
 
 from __future__ import annotations
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.typings import ComponentFactory, ComponentSpec, CrossSectionSpec
 

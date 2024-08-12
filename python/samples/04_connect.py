@@ -8,8 +8,8 @@ The connect command allows you to connect ComponentReference ports together like
 
 from __future__ import annotations
 
-from dodesign.show import show
 import gdsfactory as gf
+from dodesign.show import show
 
 if __name__ == "__main__":
     c = gf.Component("straights_sample")

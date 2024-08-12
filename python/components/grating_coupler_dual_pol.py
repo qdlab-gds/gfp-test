@@ -1,11 +1,11 @@
 from __future__ import annotations
-from dodesign.show import show
 
 from functools import partial
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.rectangle import rectangle
 from gdsfactory.components.taper import taper as taper_function

@@ -1,9 +1,9 @@
 from __future__ import annotations
-from dodesign.show import show
 
 from functools import partial
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component, ComponentAllAngle, ComponentBase
 from gdsfactory.path import arc
 from gdsfactory.snap import snap_to_grid

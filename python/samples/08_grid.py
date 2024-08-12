@@ -1,4 +1,5 @@
 """Group components in a cell using grid."""
+
 from dodesign.show import show
 
 if __name__ == "__main__":

@@ -2,10 +2,10 @@
 
 from __future__ import annotations
 
-from dodesign.show import show
 import gdsfactory as gf
+from dodesign.show import show
 
 if __name__ == "__main__":
-    wg1 = gf.components.straight(length=10, width=0.8, cross_section="slot")
-    wg1.show()  # show it in klayout
+    c = gf.components.straight(length=10, width=0.8, cross_section="slot")
+    c.show()  # show it in klayout
     show(c)

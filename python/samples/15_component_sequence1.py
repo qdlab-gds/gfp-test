@@ -10,8 +10,8 @@ The actual chain of components is supplied by a string or a list
 
 from __future__ import annotations
 
-from dodesign.show import show
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components import bend_circular
 from gdsfactory.components.component_sequence import component_sequence

@@ -1,7 +1,7 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.taper import taper as taper_function
 from gdsfactory.typings import ComponentFactory, CrossSectionSpec

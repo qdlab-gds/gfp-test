@@ -1,11 +1,11 @@
 """Straight Doped PIN waveguide."""
-from dodesign.show import show
 
 from __future__ import annotations
 
 from functools import partial
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.cross_section import pn
 from gdsfactory.typings import ComponentSpec, CrossSectionSpec

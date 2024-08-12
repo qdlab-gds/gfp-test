@@ -1,11 +1,11 @@
 from __future__ import annotations
-from dodesign.show import show
 
 from collections.abc import Callable
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.path import transition_adiabatic
 from gdsfactory.typings import CrossSectionSpec
 

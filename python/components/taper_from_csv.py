@@ -1,5 +1,4 @@
 """Adiabatic tapers from CSV files."""
-from dodesign.show import show
 
 from __future__ import annotations
 
@@ -10,6 +9,7 @@ from pathlib import Path
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.typings import CrossSectionSpec
 

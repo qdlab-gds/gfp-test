@@ -1,5 +1,4 @@
 """Lets create a new component.
-from dodesign.show import show
 
 We create a function which returns a gf.Component.
 
@@ -14,6 +13,7 @@ Lets build straight crossing out of a vertical and horizontal arm
 from __future__ import annotations
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 
 

@@ -1,5 +1,4 @@
 """DBR gratings.
-from dodesign.show import show
 
 wavelength = 2*period*neff
 period = wavelength/2/neff
@@ -13,6 +12,7 @@ Period: 318nm, width: 500nm, dw: 20 ~ 120 nm.
 from __future__ import annotations
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.straight import straight
 from gdsfactory.snap import snap_to_grid

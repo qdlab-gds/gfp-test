@@ -1,10 +1,10 @@
-# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-project-demo/out/schemas/lattice.json
+# yaml-language-server: $schema=file:///dodesign-cspdk/build/schemas/lattice.json
 pdk: cspdk.si220
 instances:
   mzi1:
     component: mzi_sc
     settings:
-      delta_length: 100
+      delta_length: 20
   mzi2:
     component: mzi_sc
     settings:
@@ -26,7 +26,7 @@ placements:
     y: 0
   mzi2:
     dx: 100
-    dy: 200
+    dy: 100
     mirror: 0
     rotation: 0
     x: mzi1,o2
@@ -59,6 +59,6 @@ info:
         x: 550
         y: 200
     hierarchical:
-    - mzi_sc
+      - mzi_sc
     manhattan_fractions:
       o1-mzi1,o1: 0.5

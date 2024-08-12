@@ -1,9 +1,9 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory import cell
 from gdsfactory.component import Component
 from gdsfactory.components.array_component import array

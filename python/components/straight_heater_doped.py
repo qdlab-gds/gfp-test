@@ -1,7 +1,7 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.taper_cross_section import taper_cross_section
 from gdsfactory.snap import snap_to_grid

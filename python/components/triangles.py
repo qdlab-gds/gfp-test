@@ -1,8 +1,8 @@
 from __future__ import annotations
-from dodesign.show import show
 
 from functools import partial
 
+from dodesign.show import show
 from gdsfactory import cell
 from gdsfactory.component import Component
 from gdsfactory.typings import LayerSpec
@@ -133,7 +133,6 @@ triangle2_thin = partial(triangle2, xtop=0.2, x=2, y=5)
 triangle4_thin = partial(triangle2, xtop=0.2, x=2, y=5)
 
 if __name__ == "__main__":
-    # cc = triangle(xtop=5, ybot=5)
-    cc = triangle4_thin(spacing=0)
-    cc.show()
+    c = triangle4_thin(spacing=0)
+    c.show()
     show(c)

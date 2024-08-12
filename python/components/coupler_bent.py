@@ -1,7 +1,7 @@
 import numpy as np
-from dodesign.show import show
 
 import gdsfactory as gf
+from dodesign.show import show
 
 
 @gf.cell

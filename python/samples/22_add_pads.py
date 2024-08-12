@@ -1,9 +1,9 @@
 """You can also use the fiber array routing functions for connecting to pads."""
 
 from __future__ import annotations
-from dodesign.show import show
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.samples.big_device_electrical import big_device
 
 if __name__ == "__main__":

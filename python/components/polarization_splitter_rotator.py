@@ -1,9 +1,9 @@
 from __future__ import annotations
-from dodesign.show import show
 
 from numpy import ndarray
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.bezier import bezier
 from gdsfactory.components.coupler_straight_asymmetric import (

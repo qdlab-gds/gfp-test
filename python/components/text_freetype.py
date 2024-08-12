@@ -1,5 +1,4 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import pathlib
 import warnings
@@ -7,6 +6,7 @@ import warnings
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.config import PATH
 from gdsfactory.constants import _glyph, _indent, _width
@@ -114,8 +114,6 @@ def text_freetype(
 
 
 if __name__ == "__main__":
-    c2 = text_freetype("hello", size=1)
-    # print(c2.name)
-    # c2 = text_freetype()
-    c2.show()
+    c = text_freetype("hello", size=1)
+    c.show()
     show(c)

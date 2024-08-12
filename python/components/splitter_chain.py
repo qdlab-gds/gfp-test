@@ -1,7 +1,7 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.typings import ComponentSpec
 
@@ -56,7 +56,6 @@ def splitter_chain(
 
 
 if __name__ == "__main__":
-    # component = splitter_chain(splitter=gf.components.mmi1x2, columns=4)
-    component = splitter_chain()
-    component.show()
+    c = splitter_chain()
+    c.show()
     show(c)

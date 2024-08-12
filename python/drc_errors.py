@@ -3,12 +3,12 @@
 from __future__ import annotations
 
 import numpy as np
+from cspdk.si220 import LAYER
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.typings import Float2, Layer
-from cspdk.si220 import LAYER
-from dodesign.show import show
 
 layer = LAYER.WG
 layer1 = LAYER.WG
@@ -92,5 +92,5 @@ if __name__ == "__main__":
     # c.write_gds("snap.gds")
 
     c = errors()
-    c.write_gds("out/gds/errors.gds")
+    c.show()
     show(c)

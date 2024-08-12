@@ -1,11 +1,11 @@
 """CD SEM structures."""
-from dodesign.show import show
 
 from __future__ import annotations
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory import cell
 from gdsfactory.component import Component
 from gdsfactory.components.straight import straight

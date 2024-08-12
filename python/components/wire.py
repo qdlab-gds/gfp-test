@@ -1,5 +1,4 @@
 """Wires for electrical manhattan routes."""
-from dodesign.show import show
 
 from __future__ import annotations
 
@@ -8,6 +7,7 @@ from functools import partial
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.straight import straight
 from gdsfactory.typings import CrossSectionSpec, LayerSpec

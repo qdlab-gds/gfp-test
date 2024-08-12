@@ -1,10 +1,10 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import datetime
 import platform
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.text import text
 from gdsfactory.typings import LayerSpec

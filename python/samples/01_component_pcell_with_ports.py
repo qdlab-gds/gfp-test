@@ -1,9 +1,9 @@
 """You can add ports to connect components ."""
-from dodesign.show import show
 
 from __future__ import annotations
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory.typings import LayerSpec
 
 

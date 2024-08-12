@@ -1,9 +1,9 @@
 from __future__ import annotations
-from dodesign.show import show
 
 import numpy as np
 
 import gdsfactory as gf
+from dodesign.show import show
 from gdsfactory import cell
 from gdsfactory.component import Component
 from gdsfactory.components.bezier import bezier, bezier_curve
@@ -104,12 +104,5 @@ def get_min_sbend_size(
 if __name__ == "__main__":
     min_size = get_min_sbend_size()
     print(min_size)
-    # c = bend_s(size=(10, 0))
-    # c = bend_s(bbox_offsets=[0.5], bbox_layers=[(111, 0)], width=2)
-    # c = bend_s(size=[10, 2.5])  # 10um bend radius
-    # c = bend_s(size=[20, 3], cross_section="rib")  # 10um bend radius
-    # c.pprint()
-    # c = bend_s_biased()
-    # print(c.info["min_bend_radius"])
-    # c.show()
+    c = bend_s()
     show(c)
