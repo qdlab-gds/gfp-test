@@ -1,0 +1,50 @@
+pdk: cspdk.si220
+instances:
+  ring1:
+    component: ring_single_sc
+    settings:
+      radius: 20
+  ring2:
+    component: ring_single_sc
+    settings: {}
+connections: {}
+routes:
+  route1:
+    links:
+      ring1,o2: ring2,o1
+ports:
+  o1: ring1,o1
+  o2: ring2,o2
+placements:
+  ring2:
+    dx: 100
+    dy: 100
+info:
+  schematic:
+    implicit_connections: {}
+    component_ports:
+      ring_single_sc:
+        o1: w
+        o2: e
+    component_icons:
+      ring_single_sc: []
+    placements:
+      ring1:
+        x: 32
+        y: 4
+      ring2:
+        x: 190
+        y: 42
+    port_placements:
+      o1:
+        x: 50
+        y: 200
+      o2:
+        x: 550
+        y: 200
+    hierarchical:
+      - ring_single_sc
+    manhattan_fractions:
+      ring1,o2-ring2,o1: 0.5
+      o1-ring1,o1: 0.5
+      o2-ring2,o2: 0.5
