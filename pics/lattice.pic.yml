@@ -4,7 +4,7 @@ instances:
   mzi1:
     component: mzi_sc
     settings:
-      delta_length: 20
+      delta_length: 21
   mzi2:
     component: mzi_sc
     settings:
