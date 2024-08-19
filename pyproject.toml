@@ -2,7 +2,7 @@
 name = "demo"
 
 [tool.dodesign.pdk]
-tag = "generic-prod"
+tag = "generic"
 name = "cspdk.si220"
 path = "cspdk"
 
