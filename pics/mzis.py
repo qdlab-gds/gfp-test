@@ -52,13 +52,3 @@ def mzi3(delta_length=100.0) -> gf.Component:
     c.add_port("o2", port=mmi_out_ref.ports["o3"])
     c.add_port("o3", port=mmi_out_ref.ports["o4"])
     return c
-
-
-if __name__ == "__main__":
-    from cspdk.si220 import PDK
-    from dodesign.show import show
-
-    PDK.activate()
-    c = mzi3()
-    c.write_gds("test.gds")
-    show("test.gds")

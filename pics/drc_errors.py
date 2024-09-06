@@ -2,11 +2,9 @@
 
 from __future__ import annotations
 
+import gdsfactory as gf
 import numpy as np
 from cspdk.si220 import LAYER
-
-import gdsfactory as gf
-from dodesign.show import show
 from gdsfactory.component import Component
 from gdsfactory.typings import Float2, Layer
 
@@ -81,16 +79,3 @@ def errors() -> Component:
     c = gf.pack(components, spacing=1.5)
     c = gf.add_padding_container(c[0], layers=(LAYER.FLOORPLAN,), default=5)
     return c
-
-
-if __name__ == "__main__":
-    # c = width_min()
-    # c.write_gds("wmin.gds")
-    # c = gap_min()
-    # c.write_gds("gmin.gds")
-    # c = snapping_error()
-    # c.write_gds("snap.gds")
-
-    c = errors()
-    c.show()
-    show(c)
