@@ -1,14 +1,14 @@
-# yaml-language-server: $schema=file:///dodesign-cspdk/build/schemas/lattice.json
+# yaml-language-server: $schema=file:///gfp-cspdk.si220/pics/build/schemas/lattice.json
 pdk: cspdk.si220
 instances:
   mzi1:
     component: mzi_sc
     settings:
-      delta_length: 100
+      delta_length: 20
   mzi2:
     component: mzi_sc
     settings:
-      delta_length: 10
+      delta_length: 100
 connections: {}
 routes:
   bundle:
@@ -25,8 +25,8 @@ placements:
     x: -183.72
     y: 0
   mzi2:
-    dx: 500
-    dy: 500
+    dx: 100
+    dy: 100
     mirror: 0
     rotation: 0
     x: mzi1,o2
@@ -58,8 +58,7 @@ info:
       o3:
         x: 550
         y: 200
-    hierarchical:
-      - mzi_sc
+    hierarchical: []
     manhattan_fractions:
       mzi1,o2-mzi2,o1: 0.5
       o1-mzi1,o1: 0.5
