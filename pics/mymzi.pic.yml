@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://schemas.docode.doplaydo.com/cspdk.si220.json
+# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-cspdk/pics/build/schemas/mymzi.json
 pdk: cspdk.si220
 instances:
   mzi:
@@ -14,10 +14,9 @@ info:
     component_ports:
       mzi_sc:
         o1: w
-        o2: n
+        o2: e
         o3: e
-    hierarchical:
-      - mzi_sc
+    hierarchical: []
     placements:
       mzi:
         x: 200

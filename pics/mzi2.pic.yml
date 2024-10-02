@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=file:///gdsfactoryplus-project-demo/out/schemas/mzi2.json
+# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-cspdk/pics/build/schemas/mzi2.json
 pdk: cspdk.si220
 instances:
   c1:
@@ -46,11 +46,6 @@ info:
       bend_euler_sc:
         o1: w
         o2: e
-      coupler_rc:
-        o1: w
-        o2: w
-        o3: e
-        o4: e
       coupler_sc:
         o1: w
         o2: w

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=file:///gdsfactoryplus-cspdk/build/schemas/rings.json
+# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-cspdk/pics/build/schemas/rings.json
 pdk: cspdk.si220
 instances:
   ring1:
@@ -43,8 +43,7 @@ info:
       o2:
         x: 550
         y: 200
-    hierarchical:
-      - ring_single_sc
+    hierarchical: []
     manhattan_fractions:
       ring1,o2-ring2,o1: 0.5
       o1-ring1,o1: 0.5

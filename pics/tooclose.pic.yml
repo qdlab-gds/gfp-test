@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=file:///home/flaport/Projects/gdsfactoryplus-project-demo/out/schemas/tooclose.json
+# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-cspdk/pics/build/schemas/tooclose.json
 pdk: cspdk.si220
 instances:
   wg1:
