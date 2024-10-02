@@ -5,7 +5,7 @@ from functools import partial
 import numpy as np
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.components.via import via
 from gdsfactory.components.via_stack import via_stack
 from gdsfactory.cross_section import Section

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import numpy as np
 
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory import cell
 from gdsfactory.component import Component
 from gdsfactory.components.rectangle import rectangle

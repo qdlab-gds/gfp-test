@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory import components as pc
 from gdsfactory.component import Component
 from gdsfactory.typings import LayerSpec

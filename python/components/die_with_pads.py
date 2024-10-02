@@ -1,5 +1,5 @@
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.generic_tech import LAYER
 from gdsfactory.typings import ComponentSpec, CrossSectionSpec, LayerSpec
 

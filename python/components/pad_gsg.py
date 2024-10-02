@@ -5,7 +5,7 @@ from __future__ import annotations
 from functools import partial
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.components.rectangle import rectangle
 from gdsfactory.typings import ComponentSpec, Float2, LayerSpec
 

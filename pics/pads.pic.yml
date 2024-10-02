@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-cspdk/build/schemas/pads.json
+# yaml-language-server: $schema=file:///home/flaport/Projects/gdsfactoryplus-cspdk/build/schemas/pads.json
 pdk: cspdk.si220
 instances:
   bl:

@@ -1,7 +1,7 @@
 import time
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 
 if __name__ == "__main__":
     c = gf.Component()

@@ -4,7 +4,7 @@ import numpy as np
 from numpy import cos, pi, sin
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.component import Component
 from gdsfactory.typings import LayerSpec
 

@@ -4,7 +4,7 @@ import numpy as np
 from numpy import ndarray
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.component import Component
 from gdsfactory.config import ErrorType
 from gdsfactory.functions import angles_deg, curvature, snap_angle

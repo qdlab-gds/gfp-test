@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory import Component
 from gdsfactory.snap import snap_to_grid2x
 from gdsfactory.typings import CrossSectionSpec

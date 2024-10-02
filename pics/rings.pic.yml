@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=file:///dodesign-cspdk/build/schemas/rings.json
+# yaml-language-server: $schema=file:///gdsfactoryplus-cspdk/build/schemas/rings.json
 pdk: cspdk.si220
 instances:
   ring1:

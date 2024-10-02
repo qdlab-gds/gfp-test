@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.cdsem_bend180 import cdsem_bend180
 from gdsfactory.components.cdsem_straight import cdsem_straight

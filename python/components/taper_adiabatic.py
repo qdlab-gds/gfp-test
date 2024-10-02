@@ -5,7 +5,7 @@ from collections.abc import Callable
 import numpy as np
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.path import transition_adiabatic
 from gdsfactory.typings import CrossSectionSpec
 

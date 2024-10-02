@@ -6,7 +6,7 @@ import numpy as np
 from numpy import ndarray
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.component import Component
 from gdsfactory.functions import DEG2RAD, extrude_path
 from gdsfactory.typings import CrossSectionSpec, LayerSpec

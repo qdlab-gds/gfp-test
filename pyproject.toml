@@ -1,9 +1,12 @@
-[tool.dodesign]
+[tool.gdsfactoryplus]
 name = "demo"
 
-[tool.dodesign.pdk]
+[tool.gdsfactoryplus.pdk]
 tag = "cspdk"
 name = "cspdk.si220"
+
+[tool.gdsfactoryplus.drc]
+threads = 8
 
 [tool.basedpyright]
 reportMissingImports = true

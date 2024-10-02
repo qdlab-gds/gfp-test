@@ -3,7 +3,7 @@ from __future__ import annotations
 import numpy as np
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory import Component
 from gdsfactory.typings import ComponentSpec, CrossSectionSpec, LayerSpec
 

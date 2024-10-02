@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=file:///dodesign-project-demo/out/schemas/mzi2.json
+# yaml-language-server: $schema=file:///gdsfactoryplus-project-demo/out/schemas/mzi2.json
 pdk: cspdk.si220
 instances:
   c1:

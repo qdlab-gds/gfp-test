@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.taper import taper as taper_func
 from gdsfactory.components.via_stack import via_stack_slab_m3

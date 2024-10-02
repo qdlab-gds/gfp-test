@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.component import Component, ComponentAllAngle
 from gdsfactory.cross_section import CrossSectionSpec
 

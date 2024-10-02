@@ -1,6 +1,6 @@
 """Group components in a cell using grid."""
 
-from dodesign.show import show
+from gdsfactoryplus.show import show
 
 if __name__ == "__main__":
     import gdsfactory as gf

@@ -7,8 +7,8 @@ import sax
 from cspdk.si220 import PDK
 
 import gdsfactory as gf
-from dodesign.show import show
-from dodesign.simulate import circuit_plot
+from gdsfactoryplus.show import show
+from gdsfactoryplus.simulate import circuit_plot
 
 PDK.activate()
 

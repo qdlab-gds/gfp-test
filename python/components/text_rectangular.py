@@ -3,7 +3,7 @@ from __future__ import annotations
 from functools import partial
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.component import Component
 from gdsfactory.components.copy_layers import copy_layers
 from gdsfactory.components.text_rectangular_font import pixel_array, rectangular_font

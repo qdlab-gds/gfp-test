@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from dodesign.show import show
+from gdsfactoryplus.show import show
 from gdsfactory.typings import Component, ComponentFactory
 
 _cols_200mm_wafer = (2, 6, 6, 8, 8, 6, 6, 2)
