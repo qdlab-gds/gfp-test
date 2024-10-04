@@ -1,218 +1,7 @@
-py[cod]
-add_type_hints.xonsh
-gdsfactory/generic_tech/klayout/klayoutrc
-gdsfactory/plugins/dagster/tmp*
-gdsfactory/generic_tech/klayout/layers.py
-gdsfactory/generic_tech/klayout/tech/generic_tech.py
-test-data
-tests/test_pathlength_reporting/
-tests/test_difftest/
-docs/notebooks/demo.png
-docs/notebooks/demo_jinja_loops.pic.yml
-notebooks/demo.png
-notebooks/demo.yml
-notebooks/demo_jinja_loops.pic.yml
-notebooks/schematic.yaml
-.virtual_documents
-notebooks/gplugins/pads_correct.txt
-notebooks/gplugins/pads_correct_Ppad_CSmetal3.txt
-notebooks/gplugins/pads_shorted.txt
-notebooks/gplugins/pads_shorted_Ppad_CSmetal3.txt
-
-*.png
+.vscode
+images
 *.html
-
-# C extensions
-*.so
-*.l2n
-test_manifest.csv
-gdsfactory/plugins/kweb/gds_files/
-profile.html
-*.properties
-*.sqlite3
-*.hdf5
-*.stl
-*.pkl
-*.msh
-*.xdmf
-*.db
-*.svg
-*.db
-*.tar
-.conda
-.devcontainer
-
-gfconfig.yml
-sim_ref.yaml
-yarn.lock
-node_modules/
-test_mask_metadata.csv
-test_mask_metadata.yml
-gdsfactory/simulation/spins/grating_full_opt/
-.pyre_configuration
-poetry.lock
-mask.csv
-mask.yml
-gdsfactory/simulation/gtidy3d/sim_run.yam
-gdsfactory/schema.yaml
-sim_run.yaml
-docs/notebooks/ring.yml
-.ruff_cache/
-Pipfile
-gdsfactory/samples/notebooks/demo_backwards_compatibility.pic.yml
-gdsfactory/samples/notebooks/demo_jinja.pic.yml
-test-data-gds
-sample_reticle.csv
-
-
-# Packages
-*.egg
-*.oas
-*.egg-info
-docs/notebooks/demo.yml
-Pipfile.lock
-dist
-doc_pdks/
-deprecated/
-pip-wheel-metadata/
-pdk_docs/
-build
-gdslib/
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib/
-lib64
-docs/notebooks/playground_repo
-__pycache__
-.mypy_cache/
-.pyre/
-extra/
-gdsfactory/components/doc
-cml/
-mzi.yml
-*.out
-mpb-sim/
-extrakdown-parser/
-
-# Installer logs
-pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
-*.obtained.*
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-gdsfactory/gds/.gds/
-
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
-tags
-
-# Icon must end with two \r
-Icon
-vim-markdown-preview.html
-
-# Thumbnails
-._*
-*.pyc
-*.pyo
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Rope project settings
-.ropeproject
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak
-.mypy_cache/
-
-.idea/
-*.cprof
-
-# Sphinx documentation
-doc/_build/
-
-Icon?
-*.h5
-*.log
-*.DS_Store
-*.lyrdb
-*.7z
-*.mpg
-*.pdf
-*.fsp
-*.lms
-*.icp
-*.ldf
-*.bak
-*.dat
-*.mat
-
-*.tar.gz
-*.gds
-*.json
-*.zip
-*.rdb
-*.sty
-*.blg
-*.aux
-*.bbl
-*.bib
-*.bst
-*.ppt
-*.gif
-*.pptx
-*.prj
-*.swp
-*.lms
-*.wpr
-*.wpu
-.pytest_cache
-
-# Fab-specific
-*.gds
-*.gds2
-
-# Random stuff
-.noseids
-.tags
-
-# Python
+*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -236,6 +25,7 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -254,13 +44,17 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+.nox/
 .coverage
 .coverage.*
 .cache
+nosetests.xml
 coverage.xml
 *.cover
+*.py,cover
 .hypothesis/
 .pytest_cache/
+cover/
 
 # Translations
 *.mo
@@ -270,6 +64,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -280,20 +75,53 @@ instance/
 
 # Sphinx documentation
 docs/_build/
-docs/_autosummary/
 
 # PyBuilder
+.pybuilder/
 target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# pyenv
-.python-version
-pyvenv.cfg
+# IPython
+profile_default/
+ipython_config.py
 
-# celery beat schedule file
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
 celerybeat-schedule
+celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -319,21 +147,22 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.dmypy.json
+dmypy.json
 
-# netlist stuff
-*.spi # lumerical
-*.nst # json netlist format
+# Pyre type checker
+.pyre/
 
-# lumerical interconnect
-*.ich
-docs/notebooks/plugins/sax/fdtd_vs_model.png
-gdsfactory/generic_tech/klayout/tech/layers.py
-/gdslib
+# pytype static type analyzer
+.pytype/
 
-# Optimiser output
-tune/
-gdsfactory/generic_tech/xsection_planarized.pyxs
-gdsfactory/plugins/pso/wrk_dir/
+# Cython debug symbols
+cython_debug/
 
-# keep reference gds files
-!tests/gds/*.gds
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
