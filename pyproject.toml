@@ -22,12 +22,12 @@ classifiers = [
   "Topic :: Scientific/Engineering",
   "Topic :: Scientific/Engineering :: Physics",
 ]
+keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
+license = {file = "LICENSE"}
 dependencies = [
   "gdsfactory",
   "gdsfactoryplus",
 ]
-keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
-license = {file = "LICENSE"}
 
 [project.optional-dependencies]
 dev = [
@@ -37,6 +37,10 @@ dev = [
   "ruff",
   "uv",
 ]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["examples"]
 
 [build-system]
 build-backend = "setuptools.build_meta"
@@ -126,11 +130,11 @@ message_template = "Bump to {new_version}"
 tag_template = "{new_version}"
 
 [[tool.tbump.file]]
-src = README.md
+src = "README.md"
 
 [[tool.tbump.file]]
-src = pyproject.toml
+src = "pyproject.toml"
 
 [[tool.tbump.file]]
-src = mycspdk/__init__.py
+src = "mycspdk/__init__.py"
 
