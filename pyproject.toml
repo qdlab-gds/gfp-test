@@ -40,7 +40,11 @@ dev = [
 
 [tool.setuptools.packages.find]
 where = ["."]
-exclude = ["examples"]
+exclude = ["examples*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+mycspdk = ["**/*.yml"]
 
 [build-system]
 build-backend = "setuptools.build_meta"
