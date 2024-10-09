@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-cspdk/pics/build/schemas/mymzi.json
+# yaml-language-server: $schema=../build/schemas/mymzi.json
 pdk: cspdk.si220
 instances:
   mzi:

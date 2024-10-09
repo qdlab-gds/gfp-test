@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-cspdk/pics/build/schemas/lattice.json
+# yaml-language-server: $schema=../build/schemas/lattice.json
 pdk: cspdk.si220
 instances:
   mzi1:

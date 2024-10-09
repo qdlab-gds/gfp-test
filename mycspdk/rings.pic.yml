@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=file:///home/flaport/Projects/dodesign-cspdk/pics/build/schemas/rings.json
+# yaml-language-server: $schema=../build/schemas/rings.json
 pdk: cspdk.si220
 instances:
   ring1:
