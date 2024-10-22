@@ -63,13 +63,6 @@ reportUnknownMemberType = false
 reportUnusedCallResult = false
 reportUnusedExpression = false
 
-[tool.basedpyright]
-reportMissingImports = true
-reportMissingTypeStubs = false
-reportPrivateImportUsage = false
-reportUnknownMemberType = false
-reportUnusedCallResult = false
-reportUnusedExpression = false
 
 [tool.flake8]
 ignore = [
