@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from gdsfactoryplus.show import show
+from gdsfactoryplus import show
 from gdsfactory.read.from_yaml import from_yaml
 
 yaml = """
