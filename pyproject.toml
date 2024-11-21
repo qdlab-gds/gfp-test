@@ -25,6 +25,7 @@ classifiers = [
 keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
 license = {file = "LICENSE"}
 dependencies = [
+  "cspdk",
   "gdsfactory",
   "gdsfactoryplus",
 ]
