@@ -24,6 +24,7 @@ lib64/
 parts/
 sdist/
 var/
+extra/
 wheels/
 share/python-wheels/
 *.egg-info/

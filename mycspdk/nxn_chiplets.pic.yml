@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=../build/schemas/nxn_chiplets.json
+pdk: cspdk.si220
+instances:
+  n2:
+    component: nxn
+    settings: {}
+  n1:
+    component: nxn
+    settings: {}
+  n3:
+    component: nxn
+    settings: {}
+  n4:
+    component: nxn
+    settings: {}
+connections: {}
+routes:
+  r1:
+    links:
+      n1,o:2:5: n2,o:2:5
+  r2:
+    links:
+      n3,o:2:5: n4,o:2:5
+ports: {}
+placements:
+  n2:
+    x: 100
+    y: 100
+    mirror: true
+    rotation: 180
+  n3:
+    x: 50
+    y: -30
+  n4:
+    x: 150
+    y: 200
+    mirror: true
+    rotation: 180
+info:
+  schematic:
+    implicit_connections: {}
+    component_ports:
+      nxn:
+        o1: w
+        o5: e
+        o4: e
+        o3: e
+        o2: e
+    component_icons:
+      nxn: []
+    placements:
+      n2:
+        x: 300
+        y: 300
+      n1:
+        x: 288
+        y: 301
+      n3:
+        x: 116
+        y: 495
+      n4:
+        x: 484
+        y: 495
+    port_placements: {}
+    hierarchical: []
+    manhattan_fractions: {}
