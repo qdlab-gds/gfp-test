@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from gdsfactoryplus.show import show
 from gdsfactory.read.from_yaml import from_yaml
+from gdsfactoryplus.show import show
 
 yaml = """
 name: mmis

@@ -1,12 +1,11 @@
 from __future__ import annotations
 
-import numpy as np
-
 import gdsfactory as gf
-from gdsfactoryplus.show import show
+import numpy as np
 from gdsfactory import Port
 from gdsfactory.component import Component
 from gdsfactory.typings import CrossSectionSpec
+from gdsfactoryplus.show import show
 
 
 @gf.cell

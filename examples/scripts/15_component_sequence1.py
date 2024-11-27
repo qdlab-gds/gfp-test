@@ -11,12 +11,12 @@ The actual chain of components is supplied by a string or a list
 from __future__ import annotations
 
 import gdsfactory as gf
-from gdsfactoryplus.show import show
 from gdsfactory.component import Component
 from gdsfactory.components import bend_circular
 from gdsfactory.components.component_sequence import component_sequence
 from gdsfactory.components.straight import straight
 from gdsfactory.components.straight_pin import straight_pn
+from gdsfactoryplus.show import show
 
 
 @gf.cell

@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from gdsfactoryplus.show import show
 from gdsfactory.component import Component
 from gdsfactory.typings import ComponentSpec, CrossSectionSpec
+from gdsfactoryplus.show import show
 
 
 @gf.cell

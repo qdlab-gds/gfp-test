@@ -3,8 +3,8 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from gdsfactoryplus.show import show
 from gdsfactory.samples.big_device_electrical import big_device
+from gdsfactoryplus.show import show
 
 if __name__ == "__main__":
     w = h = 18 * 50
