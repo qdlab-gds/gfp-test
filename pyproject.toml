@@ -27,6 +27,7 @@ license = {file = "LICENSE"}
 dependencies = [
   "gdsfactory",
   "gdsfactoryplus",
+  "cspdk",
 ]
 
 [project.optional-dependencies]
