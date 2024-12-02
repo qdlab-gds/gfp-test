@@ -9,7 +9,7 @@ Exercise2. Make a PCell.
 from __future__ import annotations
 
 import gdsfactory as gf
-from gdsfactoryplus.show import show
+from gdsfactoryplus import show
 
 
 @gf.cell

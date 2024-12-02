@@ -4,7 +4,7 @@ In this case add_fiber_array does not add labels.
 """
 
 import gdsfactory as gf
-from gdsfactoryplus.show import show
+from gdsfactoryplus import show
 
 if __name__ == "__main__":
     c = gf.components.pack_doe_grid(
