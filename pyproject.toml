@@ -28,6 +28,7 @@ dependencies = [
   "cspdk",
   "gdsfactory",
   "gdsfactoryplus",
+  "cspdk",
 ]
 
 [project.optional-dependencies]
