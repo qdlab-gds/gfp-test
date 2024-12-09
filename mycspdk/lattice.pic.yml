@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=../build/schemas/lattice.json
 instances:
   mzi1:
     component: mzi_sc

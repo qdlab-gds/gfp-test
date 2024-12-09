@@ -3,7 +3,7 @@ transforms:
     translation:
       x: -180.40587
       y: 14.97534
-      z: 1.0
+      z: 4.0
     rotation:
       x: 0.0
       y: 0.0
@@ -17,7 +17,7 @@ transforms:
     translation:
       x: 326.0415
       y: -133.08534
-      z: 1.0
+      z: 5.0
     rotation:
       x: 0.0
       y: 0.0
@@ -31,7 +31,7 @@ transforms:
     translation:
       x: 266.06747
       y: 23.293346
-      z: 1.0
+      z: 6.0
     rotation:
       x: 0.0
       y: 0.0
@@ -45,7 +45,7 @@ transforms:
     translation:
       x: -108.770226
       y: -77.354645
-      z: 1.0
+      z: 2.0
     rotation:
       x: 0.0
       y: 0.0
@@ -59,7 +59,7 @@ transforms:
     translation:
       x: 160.27998
       y: -47.409794
-      z: 1.0
+      z: 3.0
     rotation:
       x: 0.0
       y: 0.0
