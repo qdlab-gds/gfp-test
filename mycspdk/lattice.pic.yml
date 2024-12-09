@@ -1,5 +1,3 @@
-# yaml-language-server: $schema=../build/schemas/lattice.json
-pdk: cspdk.si220
 instances:
   mzi1:
     component: mzi_sc
@@ -14,6 +12,7 @@ routes:
   bundle:
     links:
       mzi1,o2: mzi2,o1
+nets: []
 ports:
   o1: mzi1,o1
   o2: mzi2,o2
@@ -31,16 +30,23 @@ placements:
     rotation: 0
     x: mzi1,o2
     y: 0
+pdk: cspdk.si220
 info:
   schematic:
-    implicit_connections: {}
+    component_icons:
+      mzi_sc: []
     component_ports:
       mzi_sc:
         o1: w
         o2: e
         o3: e
-    component_icons:
-      mzi_sc: []
+    hierarchical: []
+    implicit_connections: {}
+    manhattan_fractions:
+      mzi1,o2-mzi2,o1: 0.5
+      o1-mzi1,o1: 0.5
+      o2-mzi2,o2: 0.5
+      o3-mzi2,o3: 0.5
     placements:
       mzi1:
         x: 432
@@ -58,9 +64,3 @@ info:
       o3:
         x: 550
         y: 200
-    hierarchical: []
-    manhattan_fractions:
-      mzi1,o2-mzi2,o1: 0.5
-      o1-mzi1,o1: 0.5
-      o2-mzi2,o2: 0.5
-      o3-mzi2,o3: 0.5
