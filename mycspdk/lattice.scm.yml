@@ -1,9 +1,9 @@
 transforms:
   o1:
     translation:
-      x: -180.40587
-      y: 14.97534
-      z: 4.0
+      x: -69.000015
+      y: -70.0
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -15,9 +15,9 @@ transforms:
       z: 1.0
   o2:
     translation:
-      x: 326.0415
-      y: -133.08534
-      z: 5.0
+      x: 493.0
+      y: -126.0
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -29,9 +29,9 @@ transforms:
       z: 1.0
   o3:
     translation:
-      x: 266.06747
-      y: 23.293346
-      z: 6.0
+      x: 332.00003
+      y: 29.000017
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -43,9 +43,9 @@ transforms:
       z: 1.0
   mzi1:
     translation:
-      x: -108.770226
-      y: -77.354645
-      z: 2.0
+      x: 40.999996
+      y: -200.0
+      z: 3.0
     rotation:
       x: 0.0
       y: 0.0
@@ -57,9 +57,9 @@ transforms:
       z: 1.0
   mzi2:
     translation:
-      x: 160.27998
-      y: -47.409794
-      z: 3.0
+      x: 279.99997
+      y: -40.0
+      z: 2.0
     rotation:
       x: 0.0
       y: 0.0
