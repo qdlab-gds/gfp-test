@@ -1,5 +1,5 @@
 import gdsfactory as gf
-from gdsfactoryplus import show
+from gdsfactoryplus.show import show
 
 if __name__ == "__main__":
     c = gf.Component()

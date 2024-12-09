@@ -1,6 +1,6 @@
 """Group components in a cell using pack."""
 
-from gdsfactoryplus import show
+from gdsfactoryplus.show import show
 
 if __name__ == "__main__":
     import gdsfactory as gf

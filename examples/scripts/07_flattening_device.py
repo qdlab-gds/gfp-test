@@ -10,8 +10,8 @@ The Component.flatten() method flattens current Component by copying all polygon
 from __future__ import annotations
 
 import gdsfactory as gf
-from gdsfactoryplus import show
 from gdsfactory.component import Component
+from gdsfactoryplus.show import show
 
 
 @gf.cell

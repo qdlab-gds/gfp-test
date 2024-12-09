@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from gdsfactoryplus import show
+from gdsfactoryplus.show import show
 
 if __name__ == "__main__":
     c = gf.components.straight(length=10, width=0.8, cross_section="slot")

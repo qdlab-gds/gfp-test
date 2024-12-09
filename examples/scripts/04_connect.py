@@ -9,7 +9,7 @@ The connect command allows you to connect ComponentReference ports together like
 from __future__ import annotations
 
 import gdsfactory as gf
-from gdsfactoryplus import show
+from gdsfactoryplus.show import show
 
 if __name__ == "__main__":
     c = gf.Component("straights_sample")

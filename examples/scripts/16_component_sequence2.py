@@ -1,11 +1,11 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from gdsfactoryplus import show
 from gdsfactory.component import Component
 from gdsfactory.components.component_sequence import component_sequence
 from gdsfactory.components.straight import straight
 from gdsfactory.components.taper import taper_strip_to_ridge
+from gdsfactoryplus.show import show
 
 
 @gf.cell

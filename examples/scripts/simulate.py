@@ -1,13 +1,12 @@
 import os
 
 import altair as alt
+import gdsfactory as gf
 import jax.numpy as jnp
 import pandas as pd
 import sax
 from cspdk.si220 import PDK
-
-import gdsfactory as gf
-from gdsfactoryplus import show
+from gdsfactoryplus.show import show
 from gdsfactoryplus.simulate import circuit_plot
 
 PDK.activate()
