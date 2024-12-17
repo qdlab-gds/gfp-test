@@ -83,7 +83,7 @@ connections:
   mmi12x,o1: die_template,o12
   mmi13x,o1: die_template,o13
   mmi14x,o1: die_template,o14
-  mmi15x,o1: die_template,o15
+  mmi15x,o1: die_template,o25
   mmi16x,o1: die_template,o16
   mmi17x,o1: die_template,o17
   mmi18x,o1: die_template,o18
