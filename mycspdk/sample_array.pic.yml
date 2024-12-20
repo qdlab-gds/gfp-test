@@ -5,8 +5,9 @@ instances:
     component: bend_euler_sc
   s1:
     component: straight_sc
-    column_pitch: 100
-    columns: 3
+    array:
+      column_pitch: 100
+      columns: 3
     settings:
       cross_section: xs_sc
       length: 10
