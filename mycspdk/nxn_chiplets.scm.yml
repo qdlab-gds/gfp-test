@@ -1,0 +1,64 @@
+transforms:
+  n2:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  n1:
+    translation:
+      x: -23.716337
+      y: 249.95526
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  n3:
+    translation:
+      x: 170.52898
+      y: -117.14924
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  n4:
+    translation:
+      x: 149.65964
+      y: 181.82451
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+component_ports:
+  nxn:
+    o5: e
+    o4: e
+    o3: e
+    o2: e
+    o1: w
