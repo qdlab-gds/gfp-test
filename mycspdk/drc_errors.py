@@ -63,16 +63,6 @@ def enclosing(
 
 
 @gf.cell
-def snapping_error(gap: float = 1e-3) -> Component:
-    c = gf.Component()
-    r1 = c << gf.components.rectangle(size=(1, 1), layer=layer)
-    r2 = c << gf.components.rectangle(size=(1, 1), layer=layer)
-    r1.dxmax = 0
-    r2.dxmin = gap
-    return c
-
-
-@gf.cell
 def errors() -> Component:
     components = [width_min(), gap_min(), separation(), enclosing()]
     components += [gap_min(spacing) for spacing in np.linspace(0.1, 0.2, 5)]
