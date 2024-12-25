@@ -15,6 +15,6 @@ def mzi_with_bend(radius=10):
 
 if __name__ == "__main__":
     c = mzi_with_bend(radius=100)
-    c = gf.routing.add_fiber_array(c, fiber_spacing=250, fanout_length=100)
+    c = gf.routing.add_fiber_array(c, pitch=250, fanout_length=100)
     c.show()
     show(c)
