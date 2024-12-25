@@ -1,23 +1,28 @@
 # yaml-language-server: $schema=../build/schemas/sample_array.json
-pdk: cspdk.si220
 instances:
   b1:
     component: bend_euler_sc
+    settings:
+      radius: 20
   s1:
     component: straight_sc
-    array:
-      column_pitch: 100
-      columns: 3
     settings:
       cross_section: xs_sc
       length: 10
-connections: {}
+    array:
+      columns: 3
+      rows: 1
+      column_pitch: 100.0
+      row_pitch: 0.0
+connections:
+  s1<2.0>,o2: b1,o1
 routes: {}
+nets: []
 ports: {}
 placements: {}
+pdk: cspdk.si220
 info:
   schematic:
-    implicit_connections: {}
     component_ports:
       bend_euler_sc:
         o1: w
@@ -26,12 +31,13 @@ info:
         o1: w
         o2: e
     hierarchical: []
+    implicit_connections: {}
+    manhattan_fractions: {}
     placements:
-      s1:
-        x: 200
-        y: 200
       b1:
         x: 105
         y: 309
+      s1:
+        x: 200
+        y: 200
     port_placements: {}
-    manhattan_fractions: {}
