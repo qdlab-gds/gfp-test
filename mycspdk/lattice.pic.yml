@@ -1,16 +1,19 @@
+# yaml-language-server: $schema=../build/schemas/lattice.json
 instances:
   mzi1:
     component: mzi_sc
     settings: {}
   mzi2:
-    component: mzi_sc
+    component: mzi_sc3adsad
     settings:
-      delta_length: 20.0
+      delta_length: 200.0
 connections: {}
 routes:
   bundle:
     links:
       mzi1,o2: mzi2,o1
+    routing_strategy: route_bundle
+    settings: {}
 nets: []
 ports:
   o1: mzi1,o1
