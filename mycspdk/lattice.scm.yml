@@ -3,7 +3,7 @@ transforms:
     translation:
       x: -69.000015
       y: -70.0
-      z: 1.0
+      z: 4.0
     rotation:
       x: 0.0
       y: 0.0
@@ -17,7 +17,7 @@ transforms:
     translation:
       x: 493.0
       y: -126.0
-      z: 1.0
+      z: 5.0
     rotation:
       x: 0.0
       y: 0.0
@@ -31,7 +31,7 @@ transforms:
     translation:
       x: 332.00003
       y: 29.000017
-      z: 1.0
+      z: 6.0
     rotation:
       x: 0.0
       y: 0.0
@@ -45,7 +45,7 @@ transforms:
     translation:
       x: 40.999996
       y: -200.0
-      z: 3.0
+      z: 2.0
     rotation:
       x: 0.0
       y: 0.0
@@ -59,7 +59,7 @@ transforms:
     translation:
       x: 279.99997
       y: -40.0
-      z: 2.0
+      z: 3.0
     rotation:
       x: 0.0
       y: 0.0
@@ -69,3 +69,8 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
+component_ports:
+  mzi_sc:
+    o3: e
+    o2: e
+    o1: w

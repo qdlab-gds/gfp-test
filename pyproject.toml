@@ -1,34 +1,31 @@
-[tool.gdsfactoryplus.pdk]
-tag = "cspdk"
-name = "cspdk.si220"
-
-[tool.gdsfactoryplus.drc]
-threads = 8
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "pip", "build", "wheel"]
 
 [project]
-name = "mycspdk"
-version = "0.0.0"
-requires-python = ">=3.11.0"
 authors = [
-{ name = "GDSFactory", email = "info@gdsfactory.com" },
+  {name = "GDSFactory", email = "info@gdsfactory.com"}
 ]
-description = "My cspdk demo project"
-readme = "README.md"
 classifiers = [
   "Intended Audience :: Science/Research",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Topic :: Scientific/Engineering",
-  "Topic :: Scientific/Engineering :: Physics",
+  "Topic :: Scientific/Engineering :: Physics"
 ]
-keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
-license = {file = "LICENSE"}
 dependencies = [
   "cspdk",
   "gdsfactory",
-  "gdsfactoryplus",
+  "gdsfactoryplus"
 ]
+description = "My cspdk demo project"
+keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
+license = {file = "LICENSE"}
+name = "mycspdk"
+readme = "README.md"
+requires-python = ">=3.11.0"
+version = "0.0.0"
 
 [project.optional-dependencies]
 dev = [
@@ -36,20 +33,15 @@ dev = [
   "ruff",
   "tbump",
   "ruff",
-  "uv",
+  "uv"
 ]
 
-[tool.setuptools.packages.find]
-where = ["."]
-exclude = ["examples*"]
-namespaces = false
+[tool.gdsfactoryplus.drc]
+threads = 8
 
-[tool.setuptools.package-data]
-mycspdk = ["**/*.yml"]
-
-[build-system]
-build-backend = "setuptools.build_meta"
-requires = ["setuptools", "pip", "build", "wheel"]
+[tool.gdsfactoryplus.pdk]
+name = "cspdk.si220"
+tag = "cspdk"
 
 [tool.pyright]
 reportMissingImports = true
@@ -89,21 +81,15 @@ select = [
 [tool.ruff.pydocstyle]
 convention = "google"
 
+[tool.setuptools.package-data]
+mycspdk = ["**/*.yml"]
+
+[tool.setuptools.packages.find]
+exclude = ["examples*"]
+namespaces = false
+where = ["."]
+
 [tool.tbump]
-
-[tool.tbump.version]
-current = "0.0.0"
-regex = '''
-  (?P<major>\d+)
-  \.
-  (?P<minor>\d+)
-  \.
-  (?P<patch>\d+)
-  '''
-
-[tool.tbump.git]
-message_template = "Bump to {new_version}"
-tag_template = "{new_version}"
 
 [[tool.tbump.file]]
 src = "README.md"
@@ -114,3 +100,16 @@ src = "pyproject.toml"
 [[tool.tbump.file]]
 src = "mycspdk/__init__.py"
 
+[tool.tbump.git]
+message_template = "Bump to {new_version}"
+tag_template = "{new_version}"
+
+[tool.tbump.version]
+current = "0.0.0"
+regex = '''
+  (?P<major>\d+)
+  \.
+  (?P<minor>\d+)
+  \.
+  (?P<patch>\d+)
+  '''

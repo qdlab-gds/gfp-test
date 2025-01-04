@@ -1,17 +1,17 @@
 resolution: 20
 port_symmetries:
   o2@0,o1@0:
-  - o1@0,o2@0
-  - o3@0,o4@0
-  - o4@0,o3@0
+    - o1@0,o2@0
+    - o3@0,o4@0
+    - o4@0,o3@0
   o3@0,o1@0:
-  - o1@0,o3@0
-  - o2@0,o4@0
-  - o4@0,o2@0
+    - o1@0,o3@0
+    - o2@0,o4@0
+    - o4@0,o2@0
   o4@0,o1@0:
-  - o1@0,o4@0
-  - o2@0,o3@0
-  - o3@0,o2@0
+    - o1@0,o4@0
+    - o2@0,o3@0
+    - o3@0,o2@0
 wavelength_start: 1.5
 wavelength_stop: 1.6
 wavelength_points: 50
@@ -27,8 +27,8 @@ is_3d: false
 layer_stack:
   substrate:
     layer:
-    - 99999
-    - 0
+      - 99999
+      - 0
     thickness: 10.0
     thickness_tolerance: null
     zmin: -13.0
@@ -49,8 +49,8 @@ layer_stack:
     info: {}
   box:
     layer:
-    - 99999
-    - 0
+      - 99999
+      - 0
     thickness: 3.0
     thickness_tolerance: null
     zmin: -3.0
@@ -71,8 +71,8 @@ layer_stack:
     info: {}
   core:
     layer:
-    - 1
-    - 0
+      - 1
+      - 0
     thickness: 0.22
     thickness_tolerance: null
     zmin: 0.0
@@ -93,8 +93,8 @@ layer_stack:
     info: {}
   shallow_etch:
     layer:
-    - 2
-    - 6
+      - 2
+      - 6
     thickness: 0.07
     thickness_tolerance: null
     zmin: 0.0
@@ -108,18 +108,18 @@ layer_stack:
     layer_type: etch
     mode: null
     into:
-    - core
+      - core
     doping_concentration: null
     resistivity: null
     bias: null
     derived_layer:
-    - 2
-    - 0
+      - 2
+      - 0
     info: {}
   deep_etch:
     layer:
-    - 3
-    - 6
+      - 3
+      - 6
     thickness: 0.13
     thickness_tolerance: null
     zmin: 0.0
@@ -133,18 +133,18 @@ layer_stack:
     layer_type: etch
     mode: null
     into:
-    - core
+      - core
     doping_concentration: null
     resistivity: null
     bias: null
     derived_layer:
-    - 3
-    - 0
+      - 3
+      - 0
     info: {}
   clad:
     layer:
-    - 99999
-    - 0
+      - 99999
+      - 0
     thickness: 3.0
     thickness_tolerance: null
     zmin: 0.0
@@ -165,8 +165,8 @@ layer_stack:
     info: {}
   slab150:
     layer:
-    - 2
-    - 0
+      - 2
+      - 0
     thickness: 0.15
     thickness_tolerance: null
     zmin: 0.0
@@ -187,8 +187,8 @@ layer_stack:
     info: {}
   slab90:
     layer:
-    - 3
-    - 0
+      - 3
+      - 0
     thickness: 0.09
     thickness_tolerance: null
     zmin: 0.0
@@ -209,8 +209,8 @@ layer_stack:
     info: {}
   nitride:
     layer:
-    - 34
-    - 0
+      - 34
+      - 0
     thickness: 0.35000000000000003
     thickness_tolerance: null
     zmin: 0.32
@@ -231,8 +231,8 @@ layer_stack:
     info: {}
   ge:
     layer:
-    - 5
-    - 0
+      - 5
+      - 0
     thickness: 0.5
     thickness_tolerance: null
     zmin: 0.22
@@ -253,8 +253,8 @@ layer_stack:
     info: {}
   undercut:
     layer:
-    - 6
-    - 0
+      - 6
+      - 0
     thickness: -5.0
     thickness_tolerance: null
     zmin: -3.0
@@ -264,18 +264,18 @@ layer_stack:
     sidewall_angle_tolerance: null
     width_to_z: 0.0
     z_to_bias:
-    - - 0.0
-      - 0.3
-      - 0.6
-      - 0.8
-      - 0.9
-      - 1.0
-    - - 0.0
-      - -0.5
-      - -1.0
-      - -1.5
-      - -2.0
-      - -2.5
+      - - 0.0
+        - 0.3
+        - 0.6
+        - 0.8
+        - 0.9
+        - 1.0
+      - - 0.0
+        - -0.5
+        - -1.0
+        - -1.5
+        - -2.0
+        - -2.5
     mesh_order: 1
     layer_type: grow
     mode: null
@@ -287,8 +287,8 @@ layer_stack:
     info: {}
   via_contact:
     layer:
-    - 40
-    - 0
+      - 40
+      - 0
     thickness: 1.01
     thickness_tolerance: null
     zmin: 0.09
@@ -309,8 +309,8 @@ layer_stack:
     info: {}
   metal1:
     layer:
-    - 41
-    - 0
+      - 41
+      - 0
     thickness: 0.7000000000000001
     thickness_tolerance: null
     zmin: 1.1
@@ -331,8 +331,8 @@ layer_stack:
     info: {}
   heater:
     layer:
-    - 47
-    - 0
+      - 47
+      - 0
     thickness: 0.75
     thickness_tolerance: null
     zmin: 1.1
@@ -353,8 +353,8 @@ layer_stack:
     info: {}
   via1:
     layer:
-    - 44
-    - 0
+      - 44
+      - 0
     thickness: 0.49999999999999956
     thickness_tolerance: null
     zmin: 1.8000000000000003
@@ -375,8 +375,8 @@ layer_stack:
     info: {}
   metal2:
     layer:
-    - 45
-    - 0
+      - 45
+      - 0
     thickness: 0.7000000000000001
     thickness_tolerance: null
     zmin: 2.3
@@ -397,8 +397,8 @@ layer_stack:
     info: {}
   via2:
     layer:
-    - 43
-    - 0
+      - 43
+      - 0
     thickness: 0.20000000000000018
     thickness_tolerance: null
     zmin: 3.0
@@ -419,8 +419,8 @@ layer_stack:
     info: {}
   metal3:
     layer:
-    - 49
-    - 0
+      - 49
+      - 0
     thickness: 2.0
     thickness_tolerance: null
     zmin: 3.2
@@ -445,48 +445,48 @@ component:
       name: o1
       width: 0.5
       center:
-      - -4.0
-      - 0.0
+        - -4.0
+        - 0.0
       orientation: 180
       layer:
-      - 1
-      - 0
+        - 1
+        - 0
       port_type: optical
       shear_angle: null
     o2:
       name: o2
       width: 0.5
       center:
-      - 0.0
-      - 4.0
+        - 0.0
+        - 4.0
       orientation: 90
       layer:
-      - 1
-      - 0
+        - 1
+        - 0
       port_type: optical
       shear_angle: null
     o3:
       name: o3
       width: 0.5
       center:
-      - 4.0
-      - 0.0
+        - 4.0
+        - 0.0
       orientation: 0.0
       layer:
-      - 1
-      - 0
+        - 1
+        - 0
       port_type: optical
       shear_angle: null
     o4:
       name: o4
       width: 0.5
       center:
-      - -0.0
-      - -4.0
+        - -0.0
+        - -4.0
       orientation: 270
       layer:
-      - 1
-      - 0
+        - 1
+        - 0
       port_type: optical
       shear_angle: null
   name: crossing
