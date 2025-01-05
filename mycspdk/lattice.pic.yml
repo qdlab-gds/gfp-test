@@ -4,7 +4,7 @@ instances:
     component: mzi_sc
     settings: {}
   mzi2:
-    component: mzi_sc3adsad
+    component: mzi_sc
     settings:
       delta_length: 200.0
 connections: {}
