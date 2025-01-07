@@ -37,7 +37,7 @@ dev = [
 ]
 
 [tool.gdsfactoryplus.drc]
-threads = 8
+timeout = 300
 
 [tool.gdsfactoryplus.pdk]
 name = "cspdk.si220"
