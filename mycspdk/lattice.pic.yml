@@ -6,7 +6,7 @@ instances:
   mzi2:
     component: mzi_sc
     settings:
-      delta_length: 200.0
+      delta_length: 20
 connections: {}
 routes:
   bundle:

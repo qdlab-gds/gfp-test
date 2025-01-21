@@ -57,9 +57,9 @@ transforms:
       z: 1.0
   mzi2:
     translation:
-      x: 279.99997
-      y: -40.0
-      z: 3.0
+      x: 221.0
+      y: -74.0
+      z: 2.0
     rotation:
       x: 0.0
       y: 0.0
