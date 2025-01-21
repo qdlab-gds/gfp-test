@@ -15,7 +15,7 @@ classifiers = [
   "Topic :: Scientific/Engineering :: Physics"
 ]
 dependencies = [
-  "cspdk",
+  "cspdk==0.12.3",
   "gdsfactory",
   "gdsfactoryplus"
 ]
