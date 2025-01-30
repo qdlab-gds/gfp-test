@@ -16,7 +16,7 @@ classifiers = [
 ]
 dependencies = [
   "cspdk==0.12.4",
-  "gdsfactoryplus>=0.29.0"
+  "gdsfactoryplus>=0.32.1",
 ]
 description = "My cspdk demo project"
 keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
