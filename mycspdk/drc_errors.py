@@ -66,6 +66,6 @@ def enclosing(
 def errors() -> Component:
     components = [width_min(), gap_min(), separation(), enclosing()]
     components += [gap_min(spacing) for spacing in np.linspace(0.1, 0.2, 5)]
-    c = gf.pack(components, spacing=2)
+    c = gf.pack(components, spacing=1)
     c = gf.add_padding_container(c[0], layers=(LAYER.FLOORPLAN,), default=5)
     return c

@@ -2,6 +2,17 @@
 images
 *.html
 *.txt
+examples/notebooks/gdsfactory-training/demo.gds
+examples/notebooks/gdsfactory-training/demo.oas
+examples/notebooks/gdsfactory-training/demo_1_0.stl
+
+
+examples/notebooks/gdsfactory/*.gv
+examples/notebooks/gdsfactory/*.pdf
+examples/notebooks/gdsfactory/*.gds
+examples/notebooks/gdsfactory/*.csv
+examples/notebooks/gdsfactory/*.yml
+examples/notebooks/gdsfactory/*.yaml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
