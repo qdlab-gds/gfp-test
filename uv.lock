@@ -711,7 +711,7 @@ wheels = [
 
 [[package]]
 name = "gdsfactoryplus"
-version = "0.29.0"
+version = "0.32.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "altair" },
@@ -734,18 +734,14 @@ dependencies = [
     { name = "websocket-client" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/03/4c/230150dbcb41d8b43b6a819b25217dfcfcaad19567e585c60058d64812d4/gdsfactoryplus-0.29.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:14e8ae9978ea3a0f00eaf6f9503359c57aed6a5b8f7108b6dced4423d50a70f2", size = 1844797 },
-    { url = "https://files.pythonhosted.org/packages/62/5b/b7db4929d3da8c85a204c2ef1910bf1625fe5903ee8b5543a80850eecc20/gdsfactoryplus-0.29.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:c13571b874f2ca16b452dfed92972f519ce89a3e872cd01692dc3a778eef402f", size = 1757089 },
-    { url = "https://files.pythonhosted.org/packages/bf/df/8e0fe6a6cf43b5b4cbc9e12f4f957aceea02b6feba686ba37db07c843a61/gdsfactoryplus-0.29.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f4a83904abcf717ff1f1edfebac1fdd11c468a865f75ad883847511b03747953", size = 10170590 },
-    { url = "https://files.pythonhosted.org/packages/1d/6e/abcfd555cba40f5e59180ed082971721d141d5b165b79513060306dd064e/gdsfactoryplus-0.29.0-cp311-cp311-win_amd64.whl", hash = "sha256:4309d792bca996ec97dad6a4bf140668ff139f2fb15c722d364fd2739fd00eb4", size = 1702202 },
-    { url = "https://files.pythonhosted.org/packages/bc/36/afde717041529178acdd6948e01e00f948e10bd97565930e357b716c7113/gdsfactoryplus-0.29.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:d4527251f21380b95647f10863c1067e2351e3c60e071dca5c201e1c0f5b7cb8", size = 1818104 },
-    { url = "https://files.pythonhosted.org/packages/e6/f5/701c04420fee8e19d6ba4ed1dd5682016e641664b28e91706774d16a620f/gdsfactoryplus-0.29.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:b0a9417fb2b348e0afc4e34224ce6b9620c507269ee577673145197beadcc919", size = 1748860 },
-    { url = "https://files.pythonhosted.org/packages/05/bb/2f07dfbe2ff6e6dccc392fe9c814cbb4a47539df5e5332c222d19693de13/gdsfactoryplus-0.29.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7beb3a7bd1990e4a633a2bb70946560dd7bd0537ba0b9c96267bb69c1e6cf752", size = 10303706 },
-    { url = "https://files.pythonhosted.org/packages/4d/d9/c8dba3dce12fe0caa1fc088d1f6e8fe779e73a9bbab05b6a55c56e1ccee7/gdsfactoryplus-0.29.0-cp312-cp312-win_amd64.whl", hash = "sha256:0adb93c464cbf3cd68d5fe8567b532dbf6f71d2c455bc09e6288b06e167cf5b9", size = 1653764 },
-    { url = "https://files.pythonhosted.org/packages/22/99/64d44908b3868d64c6f3e0a53edf9fa9e20889bcb5fb1c4863531258cf6f/gdsfactoryplus-0.29.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:50e0ca5f4f32e79efaffe6ef002b303ee3a12a8f02a507242973bf3a229cf106", size = 1782440 },
-    { url = "https://files.pythonhosted.org/packages/cd/3a/b0f3fccd926b498763c3d6b1382bbeab92bc0b0f7c036fb370f6f8eec17a/gdsfactoryplus-0.29.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:d8a3f9f570c86bdd53b156184c76b89a0b4b95f6abca4f74c12d4f98212545eb", size = 1717039 },
-    { url = "https://files.pythonhosted.org/packages/b3/14/6ff3a86a67103cb6cb2154226e9089567956a4ad22629e3a2d84e5bb167d/gdsfactoryplus-0.29.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c1ccaa6dcd91ebd14db971a0b7c855c0fe594792a59b76cc0f18c568effeed3f", size = 10066955 },
-    { url = "https://files.pythonhosted.org/packages/21/78/d2f4d23021e1c9136c576843d5e99e34121c9135018d2204dc381ea6e8dc/gdsfactoryplus-0.29.0-cp313-cp313-win_amd64.whl", hash = "sha256:1fcd3791d7440727ccde943181b8eb850018f0acad72e528c6e32e362072ba28", size = 1634697 },
+    { url = "https://files.pythonhosted.org/packages/62/24/a2bc16efd18179c78bc81428d0ebeab284220de1cfabb6b9e261f998889b/gdsfactoryplus-0.32.1-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:e48ce6a39f4cb68cc03cf4898a994b0d7fb78689b7a7459278abb42166fed6bd", size = 1897102 },
+    { url = "https://files.pythonhosted.org/packages/4b/5d/3f9f61fe5bc905c57d52c58ad71ef3d549de0206d1ba511b4950533e6311/gdsfactoryplus-0.32.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:a59da67fbf44439890d74f0ff0f73c3d7625eff9f1cb796db56c3844f8ac0cbf", size = 1806825 },
+    { url = "https://files.pythonhosted.org/packages/ba/94/66cf857669db3ed2fcf7b370af226aaca93628005e9fdcd8cea1ea8da50b/gdsfactoryplus-0.32.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5329f2713917b01d3bd555959dc13f43ad5e221ae1d204da9d3feb261cdb4495", size = 10463522 },
+    { url = "https://files.pythonhosted.org/packages/9b/fd/3d3894f61708fb8402b55ed991f63634c189ef2dfcfdb8fad1b4f19c4eab/gdsfactoryplus-0.32.1-cp311-cp311-win_amd64.whl", hash = "sha256:0152d0d8d23217c5fb7b65e4d7b71dbc57b973946e6c1c0cf3a06602dbd27461", size = 1750763 },
+    { url = "https://files.pythonhosted.org/packages/d9/95/74a2410cf6c5515c51f7114d7d81a953eeac7a4fc723d67c91f64d0bb444/gdsfactoryplus-0.32.1-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:d12dd1fad6a141eed97af27ef4225c4ee7c561d0c0af02ef37cb59d124ebe72e", size = 1869592 },
+    { url = "https://files.pythonhosted.org/packages/aa/98/7c9e9a0243d2ce6a6960d69358f5b0075c13119362a87e3882fb43daed05/gdsfactoryplus-0.32.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:0c43897e7ba5e9999e06d943fccd41b3b0b2b134da9ce4eb3eeb46cbe1df314b", size = 1798963 },
+    { url = "https://files.pythonhosted.org/packages/db/82/b1141a319f2684d34acc5acc458c1ce885465ed718599195e385d21191de/gdsfactoryplus-0.32.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b3c335e63c63d2f6c94d00053c8efefd70e5f7c2dc8503e8621d49674047ccb7", size = 10605475 },
+    { url = "https://files.pythonhosted.org/packages/84/07/bc74e2dd27d5b3343cbc3226068a2524a51884200a1945061cab2d85d8cb/gdsfactoryplus-0.32.1-cp312-cp312-win_amd64.whl", hash = "sha256:6a9b4bd948c0b514fe2a6303a147b5a7fae1785a74b0d23805a2d63df9e48242", size = 1699649 },
 ]
 
 [[package]]
@@ -1736,7 +1732,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "cspdk", specifier = "==0.12.4" },
-    { name = "gdsfactoryplus", specifier = ">=0.29.0" },
+    { name = "gdsfactoryplus", specifier = ">=0.32.1" },
     { name = "pre-commit", marker = "extra == 'dev'" },
     { name = "ruff", marker = "extra == 'dev'" },
     { name = "tbump", marker = "extra == 'dev'" },
