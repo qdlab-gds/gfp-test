@@ -7,7 +7,7 @@ authors = [{name = "GDSFactory", email = "support@gdsfactory.com"}]
 classifiers = [
   "Programming Language :: Python :: 3.12"
 ]
-dependencies = ["cspdk==0.12.4", "gdsfactoryplus>=0.32.1"]
+dependencies = ["cspdk==0.12.4"]
 description = "My cspdk demo project"
 keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
 license = {file = "LICENSE"}
