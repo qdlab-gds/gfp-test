@@ -1,65 +1,54 @@
-# yaml-language-server: $schema=../build/schemas/pads.json
 instances:
-  bl:
+  p1:
     component: pad
     settings: {}
-  tl:
+  p4:
     component: pad
     settings: {}
-  br:
+  p3:
     component: pad
     settings: {}
-  tr:
+  p2:
     component: pad
     settings: {}
 connections: {}
 routes:
-  electrical:
+  m1:
     links:
-      tl,e3: tr,e1
-      bl,e3: br,e1
+      p2,e1: p1,e3
+    routing_strategy: route_bundle
+    settings:
+      cross_section: metal_routing
+      port_type: electrical
+  my_bundle:
+    links:
+      p4,e1: p3,e3
     routing_strategy: route_bundle_metal
     settings:
-      separation: 20
-      end_straight_length: 10
-      cross_section: metal_routing
-      route_width: 2
+      bend: bend_euler_sc
+      port_type: electrical
+      straight: straight_sc
+      taper: taper_sc
 nets: []
 ports: {}
 placements:
-  tl:
-    x: 0
-    y: 500
-  br:
-    x: 400
-    y: 400
-  tr:
-    x: 400
-    y: 600
-pdk: cspdk.si220
-info:
-  schematic:
-    component_ports:
-      pad:
-        e1: w
-        e2: n
-        e3: e
-        e4: s
-        pad: n
-    hierarchical: []
-    implicit_connections: {}
-    manhattan_fractions: {}
-    placements:
-      bl:
-        x: 140
-        y: 471
-      br:
-        x: 460
-        y: 243
-      tl:
-        x: 140
-        y: 186
-      tr:
-        x: 460
-        y: 129
-    port_placements: {}
+  p1:
+    dx: -35.364
+    dy: 99.216
+    rotation: 0
+    mirror: false
+  p4:
+    dx: 286.896
+    dy: -177.665
+    rotation: 0
+    mirror: false
+  p3:
+    dx: -52.063
+    dy: -103.145
+    rotation: 0
+    mirror: false
+  p2:
+    dx: 264.234
+    dy: 89.019
+    rotation: 0
+    mirror: false
