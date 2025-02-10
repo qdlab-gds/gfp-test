@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../build/schemas/pad_array.json
+instances:
+  r:
+    component: pad
+    settings: {}
+    array:
+      columns: 1
+      rows: 3
+      column_pitch: 100
+      row_pitch: 150
+  l:
+    component: pad
+    settings: {}
+    array:
+      columns: 1
+      rows: 3
+      column_pitch: 0
+      row_pitch: 150
+connections: {}
+routes:
+  my_bundle:
+    links:
+      r<0.2>,e1: l<0.2>,e3
+    routing_strategy: route_bundle
+    settings: {}
+nets: []
+ports: {}
+placements:
+  r:
+    dx: 604.625
+    dy: -37.134
+    rotation: 0
+    mirror: false

@@ -1,0 +1,36 @@
+transforms:
+  r:
+    translation:
+      x: 180.363
+      y: 7.073
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  l:
+    translation:
+      x: -181.76865
+      y: 40.33949
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+component_ports:
+  pad:
+    e2: n
+    e3: e
+    pad: e
+    e4: s
+    e1: w
