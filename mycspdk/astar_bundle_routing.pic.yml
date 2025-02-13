@@ -1,0 +1,107 @@
+# yaml-language-server: $schema=../build/schemas/bundle_routing.json
+instances:
+  l1:
+    component: straight_sc
+    settings: {}
+  l2:
+    component: straight_sc
+    settings: {}
+  l3:
+    component: straight_sc
+    settings: {}
+  l4:
+    component: straight_sc
+    settings: {}
+  r1:
+    component: straight_sc
+    settings: {}
+  r2:
+    component: straight_sc
+    settings: {}
+  r3:
+    component: straight_sc
+    settings: {}
+  r4:
+    component: straight_sc
+    settings: {}
+  o1:
+    component: straight_sc
+    settings:
+      width: 100
+      length: 20
+  o2:
+    component: straight_sc
+    settings:
+      width: 20
+      length: 20
+  o3:
+    component: straight_sc
+    settings:
+      width: 20
+      length: 100
+  o4:
+    component: straight_sc
+    settings:
+      width: 100
+      length: 20
+placements:
+  o1:
+    x: 50
+    "y": -50
+    dx: 49.121
+    dy: 31.833
+    rotation: 0
+    mirror: false
+  o2:
+    x: 120
+    "y": -60
+    dx: 13.433
+    dy: 51.943
+    rotation: 0
+    mirror: false
+  l1:
+    "y": 100
+  l2:
+    "y": 0
+  l3:
+    "y": -100
+  l4:
+    "y": -200
+  r1:
+    x: 200
+    "y": 100
+  r2:
+    x: 200
+    "y": 0
+  r3:
+    x: 200
+    "y": -100
+  r4:
+    x: 200
+    "y": -200
+  o4:
+    dx: 63.609
+    dy: 62.556
+    rotation: 0
+    mirror: false
+  o3:
+    dx: 63.663
+    dy: -95.996
+    rotation: 0
+    mirror: false
+connections: {}
+routes:
+  my_bundle:
+    links:
+      r1-4,o1: l1-4,o2
+    routing_strategy: doroute_astar
+    settings:
+      spacing: 2
+      bend:
+        component: bend_euler
+        settings:
+          radius: 10
+      straight: straight
+      layer: WG
+nets: []
+ports: {}

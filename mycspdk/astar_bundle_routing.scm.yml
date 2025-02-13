@@ -1,0 +1,61 @@
+transforms:
+  s1:
+    translation:
+      x: -123.92189
+      y: -71.28599
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  s2:
+    translation:
+      x: -118.73653
+      y: -280.42282
+      z: 9992.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  s3:
+    translation:
+      x: 270.16696
+      y: -55.755997
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  s4:
+    translation:
+      x: 271.20398
+      y: -274.21082
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+component_ports:
+  straight_sc:
+    o2: e
+    o1: w
