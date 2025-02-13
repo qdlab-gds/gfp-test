@@ -22,32 +22,3 @@ placements:
   ring2:
     dx: 100
     dy: 100
-pdk: cspdk.si220
-info:
-  schematic:
-    component_icons:
-      ring_single_sc: []
-    component_ports:
-      ring_single_sc:
-        o1: w
-        o2: e
-    hierarchical: []
-    implicit_connections: {}
-    manhattan_fractions:
-      o1-ring1,o1: 0.5
-      o2-ring2,o2: 0.5
-      ring1,o2-ring2,o1: 0.5
-    placements:
-      ring1:
-        x: 32
-        y: 4
-      ring2:
-        x: 190
-        y: 42
-    port_placements:
-      o1:
-        x: 50
-        y: 200
-      o2:
-        x: 550
-        y: 200

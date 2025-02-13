@@ -40,32 +40,3 @@ placements:
     rotation: 180
     x: 150
     y: 200
-pdk: cspdk.si220
-info:
-  schematic:
-    component_icons:
-      nxn: []
-    component_ports:
-      nxn:
-        o1: w
-        o2: e
-        o3: e
-        o4: e
-        o5: e
-    hierarchical: []
-    implicit_connections: {}
-    manhattan_fractions: {}
-    placements:
-      n1:
-        x: 288
-        y: 301
-      n2:
-        x: 300
-        y: 300
-      n3:
-        x: 116
-        y: 495
-      n4:
-        x: 484
-        y: 495
-    port_placements: {}
