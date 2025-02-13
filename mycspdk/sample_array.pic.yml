@@ -20,24 +20,3 @@ routes: {}
 nets: []
 ports: {}
 placements: {}
-pdk: cspdk.si220
-info:
-  schematic:
-    component_ports:
-      bend_euler_sc:
-        o1: w
-        o2: n
-      straight_sc:
-        o1: w
-        o2: e
-    hierarchical: []
-    implicit_connections: {}
-    manhattan_fractions: {}
-    placements:
-      b1:
-        x: 105
-        y: 309
-      s1:
-        x: 200
-        y: 200
-    port_placements: {}

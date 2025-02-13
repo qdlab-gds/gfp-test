@@ -1,5 +1,4 @@
 # yaml-language-server: $schema=../build/schemas/mymzi.json
-pdk: cspdk.si220
 instances:
   mzi:
     component: mzi_sc
@@ -8,18 +7,3 @@ connections: {}
 routes: {}
 ports: {}
 placements: {}
-info:
-  schematic:
-    implicit_connections: {}
-    component_ports:
-      mzi_sc:
-        o1: w
-        o2: e
-        o3: e
-    hierarchical: []
-    placements:
-      mzi:
-        x: 200
-        y: 200
-    port_placements: {}
-    manhattan_fractions: {}

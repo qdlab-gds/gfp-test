@@ -32,37 +32,3 @@ placements:
     rotation: 0
     x: mzi1,o2
     y: 0
-pdk: cspdk.si220
-info:
-  schematic:
-    component_icons:
-      mzi_sc: []
-    component_ports:
-      mzi_sc:
-        o1: w
-        o2: e
-        o3: e
-    hierarchical: []
-    implicit_connections: {}
-    manhattan_fractions:
-      mzi1,o2-mzi2,o1: 0.5
-      o1-mzi1,o1: 0.5
-      o2-mzi2,o2: 0.5
-      o3-mzi2,o3: 0.5
-    placements:
-      mzi1:
-        x: 432
-        y: 371
-      mzi2:
-        x: 548
-        y: 388
-    port_placements:
-      o1:
-        x: 223
-        y: 327
-      o2:
-        x: 709
-        y: 270
-      o3:
-        x: 550
-        y: 200
