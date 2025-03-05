@@ -9,7 +9,7 @@ dependencies = [
   "cspdk==0.15.0",
   "doroutes>=0.1.0",
   "gdsfactoryplus>=0.35.15",
-  "gplugins[sax,femwell,tidy3d]==1.2.4"
+  "gplugins[sax,femwell,tidy3d]==1.3.0"
 ]
 description = "My cspdk demo project"
 keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
