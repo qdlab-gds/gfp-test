@@ -1,25 +1,25 @@
-# yaml-language-server: $schema=../build/schemas/mzi2.json
+# yaml-language-server: $schema=../build/schemas/mzi_heater.json
 instances:
-  b1:
-    component: bend_euler_sc
+  h:
+    component: straight_heater_metal_sc
     settings: {}
-  b3:
+  c2:
+    component: coupler_sc
+    settings: {}
+  c1:
+    component: coupler_sc
+    settings: {}
+  b2:
     component: bend_euler_sc
     settings: {}
   b4:
     component: bend_euler_sc
     settings: {}
-  b2:
+  b3:
     component: bend_euler_sc
     settings: {}
-  c1:
-    component: coupler_sc
-    settings: {}
-  c2:
-    component: coupler_sc
-    settings: {}
-  h:
-    component: straight_heater_metal_sc
+  b1:
+    component: bend_euler_sc
     settings: {}
 connections:
   b1,o1: c1,o3
@@ -41,7 +41,7 @@ ports:
   o3: c2,o3
   o1: c1,o1
 placements:
-  b3:
-    mirror: true
   b2:
+    mirror: true
+  b3:
     mirror: true
