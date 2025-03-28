@@ -1,8 +1,8 @@
 transforms:
-  n4:
+  r1:
     translation:
-      x: 149.65964
-      y: 181.82451
+      x: -240.01561
+      y: -21.640629
       z: 2.0
     rotation:
       x: 0.0
@@ -13,10 +13,10 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  n1:
+  g1:
     translation:
-      x: -170.74081
-      y: 128.17374
+      x: -6.5624876
+      y: -36.7578
       z: 3.0
     rotation:
       x: 0.0
@@ -27,10 +27,10 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  n3:
+  g2:
     translation:
-      x: 430.31317
-      y: 185.94345
+      x: -356.8075
+      y: 7.349979
       z: 4.0
     rotation:
       x: 0.0
@@ -41,24 +41,38 @@ transforms:
       x: 1.0
       y: 1.0
       z: -1.0
-  n2:
+  o2:
     translation:
-      x: 98.26605
-      y: 128.4666
+      x: 157.92676
+      y: 3.211626
       z: 5.0
     rotation:
       x: 0.0
-      y: 0.9999999
+      y: 0.0
       z: 0.0
-      w: -4.3711385e-08
+      w: 1.0
     scale:
       x: 1.0
       y: 1.0
-      z: -1.0
+      z: 1.0
+  o1:
+    translation:
+      x: -500.7621
+      y: 89.61211
+      z: 9991.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
 component_ports:
-  nxn:
-    o5: e
-    o4: e
-    o3: e
+  ring_single_sc:
+    o2: e
+    o1: w
+  grating_coupler_elliptical_sc:
     o2: e
     o1: w
