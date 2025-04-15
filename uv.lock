@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.12.0, <3.13"
 
 [[package]]
@@ -319,7 +320,7 @@ name = "click"
 version = "8.1.8"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "colorama", marker = "platform_system == 'Windows'" },
+    { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz", hash = "sha256:ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a", size = 226593 }
 wheels = [
@@ -410,15 +411,15 @@ wheels = [
 
 [[package]]
 name = "cspdk"
-version = "0.15.3"
+version = "0.15.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "gdsfactory" },
     { name = "gplugins", extra = ["sax"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f2/c8/826a83f16d054f361ca8c4749ccf2a1582a49df6f7375b6e4ed66c12a474/cspdk-0.15.3.tar.gz", hash = "sha256:5bc581abe49fedfaccd2b72498fab6565a8f5166c49aa52f95a6655e61424b74", size = 178034 }
+sdist = { url = "https://files.pythonhosted.org/packages/03/a6/e4aaef0a8dfc530025b9092c09941738a6c667fc31c765abc0a0b3194918/cspdk-0.15.4.tar.gz", hash = "sha256:d0e2d3fefe8e8ed2b2c32c147b95c90d2f2f177b19832f09c965e27a31b84944", size = 178059 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cf/b4/178dbffa798b6acb6944f21e97fc6607baba88eb86fc66c5043adf4fea99/cspdk-0.15.3-py3-none-any.whl", hash = "sha256:72c747e576517f64c0dddaac4d8a1d11960611bc5e359447bfafbf9799c65752", size = 212132 },
+    { url = "https://files.pythonhosted.org/packages/89/17/a1776ec375980e126ca07be6d05eb559cbc20fdec91051a801eef6e2366f/cspdk-0.15.4-py3-none-any.whl", hash = "sha256:d206a4686df75680c2fe3d4630ab700f49817e71e906614f850f8cdc7f2d1a1c", size = 212130 },
 ]
 
 [[package]]
@@ -1069,7 +1070,7 @@ name = "ipykernel"
 version = "6.29.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "appnope", marker = "platform_system == 'Darwin'" },
+    { name = "appnope", marker = "sys_platform == 'darwin'" },
     { name = "comm" },
     { name = "debugpy" },
     { name = "ipython" },
@@ -1648,7 +1649,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "cspdk", specifier = "==0.15.3" },
+    { name = "cspdk", specifier = "==0.15.4" },
     { name = "doroutes", specifier = ">=0.2.0" },
     { name = "gdsfactoryplus", specifier = ">=0.36.6" },
     { name = "gplugins", extras = ["sax", "femwell", "tidy3d"], specifier = "~=1.3.2" },
@@ -1657,6 +1658,7 @@ requires-dist = [
     { name = "tbump", marker = "extra == 'dev'" },
     { name = "uv", marker = "extra == 'dev'" },
 ]
+provides-extras = ["dev"]
 
 [[package]]
 name = "mypy-extensions"
@@ -2919,7 +2921,7 @@ name = "tqdm"
 version = "4.67.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "colorama", marker = "platform_system == 'Windows'" },
+    { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/a8/4b/29b4ef32e036bb34e4ab51796dd745cdba7ed47ad142a9f4a1eb8e0c744d/tqdm-4.67.1.tar.gz", hash = "sha256:f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2", size = 169737 }
 wheels = [
