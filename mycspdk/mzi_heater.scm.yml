@@ -1,8 +1,8 @@
 transforms:
-  b3:
+  c1:
     translation:
-      x: 63.026077
-      y: 318.56635
+      x: -213.9877
+      y: -156.74902
       z: 2.0
     rotation:
       x: 0.0
@@ -13,11 +13,11 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  b1:
+  e2:
     translation:
-      x: -353.7641
-      y: 54.77532
-      z: 3.0
+      x: -16.03121
+      y: 336.2146
+      z: 15.0
     rotation:
       x: 0.0
       y: 0.0
@@ -41,11 +41,11 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  c1:
+  e1:
     translation:
-      x: -213.9877
-      y: -156.74902
-      z: 5.0
+      x: -177.46358
+      y: 348.72876
+      z: 14.0
     rotation:
       x: 0.0
       y: 0.0
@@ -55,11 +55,25 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  b2:
+  b3:
     translation:
-      x: -281.68756
-      y: 185.88574
-      z: 6.0
+      x: 63.026142
+      y: 238.5663
+      z: -6.0000024
+    rotation:
+      x: -0.9999999
+      y: 0.0
+      z: 0.0
+      w: 4.3711385e-08
+    scale:
+      x: 1.0
+      y: 1.0
+      z: -1.0
+  o1:
+    translation:
+      x: -386.66858
+      y: -132.86172
+      z: 13.0
     rotation:
       x: 0.0
       y: 0.0
@@ -69,30 +83,30 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  b4:
+  sr:
     translation:
-      x: 292.57407
-      y: 162.33296
-      z: 7.0
+      x: 374.51935
+      y: 161.61943
+      z: 9990.999
     rotation:
       x: 0.0
       y: 0.0
-      z: 0.0
-      w: 1.0
+      z: -0.70710677
+      w: 0.70710677
     scale:
       x: 1.0
       y: 1.0
       z: 1.0
-  h:
+  sl:
     translation:
-      x: -80.21701
-      y: 251.78354
-      z: 8.0
+      x: -418.20294
+      y: 54.953144
+      z: 8.999999
     rotation:
       x: 0.0
       y: 0.0
-      z: 0.0
-      w: 1.0
+      z: -0.7071067
+      w: -0.7071067
     scale:
       x: 1.0
       y: 1.0
@@ -101,7 +115,7 @@ transforms:
     translation:
       x: -378.83423
       y: -237.279
-      z: 9.0
+      z: 10.0
     rotation:
       x: 0.0
       y: 0.0
@@ -115,7 +129,7 @@ transforms:
     translation:
       x: 358.383
       y: -170.54616
-      z: 10.0
+      z: 11.0
     rotation:
       x: 0.0
       y: 0.0
@@ -129,20 +143,6 @@ transforms:
     translation:
       x: 298.84152
       y: -66.91399
-      z: 11.0
-    rotation:
-      x: 0.0
-      y: 0.0
-      z: 0.0
-      w: 1.0
-    scale:
-      x: 1.0
-      y: 1.0
-      z: 1.0
-  o1:
-    translation:
-      x: -386.66858
-      y: -132.86172
       z: 12.0
     rotation:
       x: 0.0
@@ -153,11 +153,11 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  e1:
+  b1:
     translation:
-      x: -177.46358
-      y: 348.72876
-      z: 13.0
+      x: -326.09183
+      y: 0.010128021
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -167,11 +167,39 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  e2:
+  b4:
     translation:
-      x: -16.03121
-      y: 336.2146
-      z: 14.0
+      x: 273.1631
+      y: 79.777725
+      z: -9990.0
+    rotation:
+      x: 0.0
+      y: 0.99999994
+      z: 4.371139e-08
+      w: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: -1.0
+  b2:
+    translation:
+      x: -249.12036
+      y: 240.23479
+      z: 1.0
+    rotation:
+      x: 0.7071067
+      y: 0.7071067
+      z: 3.090862e-08
+      w: 3.090862e-08
+    scale:
+      x: 1.0
+      y: 1.0
+      z: -1.0
+  h:
+    translation:
+      x: -119.37517
+      y: 393.8766
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -182,14 +210,17 @@ transforms:
       y: 1.0
       z: 1.0
 component_ports:
-  bend_euler_sc:
-    o2: n
-    o1: w
   coupler_sc:
     o3: e
     o4: e
     o1: w
     o2: w
+  bend_euler_sc:
+    o2: n
+    o1: w
+  straight_sc:
+    o2: e
+    o1: w
   straight_heater_metal_sc:
     o2: e
     r_e3: e

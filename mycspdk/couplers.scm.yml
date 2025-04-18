@@ -1,0 +1,47 @@
+transforms:
+  c1:
+    translation:
+      x: -713.2031
+      y: 147.60936
+      z: 0.1
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  c2:
+    translation:
+      x: -395.60367
+      y: 34.1491
+      z: 0.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+port_configs:
+  coupler_sc:
+    o1:
+      orientation: w
+      port_type: optical
+      index: -1.658
+    o2:
+      orientation: w
+      port_type: optical
+      index: 2.342
+    o3:
+      orientation: e
+      port_type: optical
+      index: 2.342
+    o4:
+      orientation: e
+      port_type: optical
+      index: -1.658

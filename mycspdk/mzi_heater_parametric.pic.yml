@@ -1,4 +1,8 @@
 # yaml-language-server: $schema=../build/schemas/mzi_heater.json
+default_settings:
+  dL:
+    value: 10
+    description: "The delta length between the two arms"
 instances:
   c1:
     component: coupler_sc
@@ -12,11 +16,11 @@ instances:
   sr:
     component: straight_sc
     settings:
-      length: 10
+      length: {{ dL }}
   sl:
     component: straight_sc
     settings:
-      length: 10
+      length: {{ dL }}
   b1:
     component: bend_euler_sc
     settings: {}

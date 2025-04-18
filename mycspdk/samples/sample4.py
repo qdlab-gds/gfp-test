@@ -9,7 +9,7 @@ def sample4_pack():
     ellipses = [
         gf.components.ellipse(radii=tuple(np.random.rand(2) * n + 2)) for n in range(80)
     ]
-    bins =  gf.pack(
+    bins = gf.pack(
         ellipses,  # Must be a list or tuple of Components
         spacing=4,  # Minimum distance between adjacent shapes
         aspect_ratio=(1, 1),  # Shape of the box

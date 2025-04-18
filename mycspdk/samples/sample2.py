@@ -17,4 +17,3 @@ def sample2_remove_layers() -> gf.Component:
 
     assert len(c.layers) == 1
     return c
-

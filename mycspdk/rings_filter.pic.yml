@@ -3,18 +3,28 @@ instances:
   r1:
     component: ring_single_sc
     settings: {}
-  g1:
-    component: grating_coupler_elliptical_sc
+  r2:
+    component: ring_single_sc
     settings: {}
-  g2:
-    component: grating_coupler_elliptical_sc
+connections: {}
+routes:
+  bundle1:
+    links:
+      r1,o2: r2,o1
+    routing_strategy: route_bundle
     settings: {}
-connections:
-  r1,o2: g1,o1
-  g2,o1: r1,o1
-routes: {}
 nets: []
 ports:
-  o2: g1,o2
-  o1: g2,o2
-placements: {}
+  o1: r1,o1
+  o2: r2,o2
+placements:
+  r1:
+    dx: 52.439
+    dy: 25.057
+    rotation: 0
+    mirror: false
+  r2:
+    dx: 128.26
+    dy: -9.377
+    rotation: 0
+    mirror: false
