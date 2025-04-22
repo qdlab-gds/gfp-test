@@ -35,7 +35,7 @@ ignore-words-list = "te, te/tm, te, ba, fpr, fpr_spacing, ro, nd, donot, schem"
 timeout = 300
 
 [tool.gdsfactoryplus.pdk]
-name = "cspdk.si220"
+name = "qci"
 
 [tool.pyright]
 reportMissingImports = true
@@ -107,3 +107,8 @@ regex = '''
   \.
   (?P<patch>\d+)
   '''
+
+[dependency-groups]
+dev = [
+    "qci>=0.1.4",
+]
